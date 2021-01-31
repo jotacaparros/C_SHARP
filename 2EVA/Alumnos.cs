@@ -17,9 +17,6 @@ public class Alumnos
 		public string ciudad;
 		public tipoFecha fechaNacimiento;
 		public tipoNota nota;
-		public string dni;
-		public string direccion;
-		public string telefono;
 	}
 
 	struct tipoFecha
