@@ -12,13 +12,13 @@ public class Ejercicio_1_11_2
 			…
 			3 x 10 = 30 */
 
-	public static void xxxxx(){
+	public static void Main(){
 
-		int num1, res0, res1, res2, res3, res4, res5, res6, res7, res8, res9, res10;
+		// int num1, res0, res1, res2, res3, res4, res5, res6, res7, res8, res9, res10;
 
 		Console.Write("INSERTA UN NÚMERO PARA SACAR SU TABLA DE MULTIPLICAR:");
 
-		num1 = Convert.ToInt32(Console.ReadLine());
+		/* num1 = Convert.ToInt32(Console.ReadLine());
 
 		res0 = num1 * 0;
 		res1 = num1 * 1;
@@ -43,7 +43,24 @@ public class Ejercicio_1_11_2
 		Console.WriteLine("{0} * 8 = {1}", num1, res8);
 		Console.WriteLine("{0} * 9 = {1}", num1, res9);
 		Console.WriteLine("{0} * 10 = {1}", num1, res10);
+		*/
+		
+		 int resultado, operacion, numero;
+		
+		numero = Convert.ToInt32(Console.ReadLine());
 
+		operacion = 0;
+		resultado = numero * operacion;
+		Console.WriteLine("{0} * {1} = {2}", numero, operacion, resultado);
 
+		operacion = 1;
+		resultado = numero * operacion;
+		Console.WriteLine("{0} * {1} = {2}", numero, operacion, resultado);
+
+		operacion = 2;
+		resultado = numero * operacion;
+		Console.WriteLine("{0} * {1} = {2}", numero, operacion, resultado);
+
+		 
 	}
 }
