@@ -1,0 +1,13 @@
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\obj\Debug\netcoreapp3.1\Soluciones.csproj.AssemblyReference.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\obj\Debug\netcoreapp3.1\Soluciones.AssemblyInfoInputs.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\obj\Debug\netcoreapp3.1\Soluciones.AssemblyInfo.cs
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\obj\Debug\netcoreapp3.1\Soluciones.csproj.CoreCompileInputs.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\bin\Debug\netcoreapp3.1\Soluciones.exe
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\bin\Debug\netcoreapp3.1\Soluciones.deps.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\bin\Debug\netcoreapp3.1\Soluciones.runtimeconfig.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\bin\Debug\netcoreapp3.1\Soluciones.runtimeconfig.dev.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\bin\Debug\netcoreapp3.1\Soluciones.dll
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\bin\Debug\netcoreapp3.1\Soluciones.pdb
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\obj\Debug\netcoreapp3.1\Soluciones.dll
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\obj\Debug\netcoreapp3.1\Soluciones.pdb
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Soluciones\obj\Debug\netcoreapp3.1\Soluciones.genruntimeconfig.cache
