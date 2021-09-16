@@ -12,7 +12,7 @@ public class Ejercicio_1_11_2
 			…
 			3 x 10 = 30 */
 
-	public static void Main(){
+	public static void xxx(){
 
 		// int num1, res0, res1, res2, res3, res4, res5, res6, res7, res8, res9, res10;
 
