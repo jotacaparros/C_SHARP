@@ -6,7 +6,7 @@ public class Ejercicio_2_1_1_1
 	(pista: habrá que comprobar si el resto que se obtiene al dividir entre dos es cero:
 	if (x % 2 == 0) …). */
 
-	public static void Main()
+	public static void xxxx()
 	{
 
 		int numUsuario;
