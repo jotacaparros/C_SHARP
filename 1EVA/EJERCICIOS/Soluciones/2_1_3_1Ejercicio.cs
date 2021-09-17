@@ -8,7 +8,7 @@ public class Ejercicio2_1_3_1
 	tecleado un número distinto de cero, se pedirá al usuario un segundo número y se
 	mostrará el producto de ambos*/
 
-	public static void Main()
+	public static void xxx()
 	{
 		int num1, num2, resultado;
 
