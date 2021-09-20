@@ -5,7 +5,7 @@ public class Ejercicio_2_1_5_5
 	/*(2.1.5.5) Crea un programa que pida al usuario dos números enteros y diga si
 	ambos son pares.*/
 
-	public static void Main()
+	public static void xxx()
 	{
 		int num1 = 0, num2 = 0;
 
