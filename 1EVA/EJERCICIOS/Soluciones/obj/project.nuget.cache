@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7ykKkY8vCH7mUdEeAHWl9I9/wJ6JfxmAERbMGNiRhZuUinwpvS+/tQmkpT8Wi6p8+aMOap4+GBLEIr+upNVTXw==",
+  "dgSpecHash": "YACHWXgcv9ReCFpLjIoWFv7Jk7hwSH3B2xpRdywL2JVw4J7d3VVcKrcdLB5KyUMn5iwg+SrbJrZGFBCGdKcIJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Soluciones\\Soluciones.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mañana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
   "logs": []
 }
