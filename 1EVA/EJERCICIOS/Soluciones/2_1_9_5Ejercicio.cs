@@ -10,25 +10,28 @@ public class Ejercicio_2_1_9_5
 	las cfras numéricas del 0 al 9 están ordenadas, no hace falta comprobar los 10
 	valores, sino que se puede hacer con "if ((simbolo >= '0') && (simbolo <='9'))").*/
 
-	public static void Main()
+	public static void xxxx()
 	{
 		char caracter;
 		Console.WriteLine("Introduce un carácter y te digo que es.");
 		
 		caracter = Convert.ToChar(Console.ReadLine());
 		
-			switch (caracter)
+			if ((caracter >= '0') && (caracter <= '9'))
 			{
-				case ',': case '.': case ';': case ':': Console.WriteLine("Signo de puntuación");
-				break;
-				
-				case '0': case '1': case '2': case '3': case '4': case '5': case '6': case '7': case '8': case '9':
-				Console.WriteLine("cifra númerica");
-				break;
-			
-				default: Console.WriteLine("letra");
-				break;
+				Console.WriteLine("{0} es un número", caracter);
 			}
+				else
+				{
+					if(caracter == ',' || caracter == ';' || caracter == '.' || caracter == ':')
+					{
+						Console.WriteLine("{0} es un símbolo de puntación", caracter);
+					}
+						else 
+						{
+							Console.WriteLine("{0} es otro tipo de carácter", caracter);
+						}
+		        }
 
 	}
 }
