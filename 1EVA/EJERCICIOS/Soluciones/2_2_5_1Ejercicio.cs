@@ -4,7 +4,7 @@ public class Ejercicio_2_2_5_1
 {
     /*(2.2.5.1) Crea un programa escriba 4 veces los números del 1 al 5, en una misma 
     línea, usando "for": 12345123451234512345.*/
-    public static void Main()
+    public static void xxx()
 	{
         for (int i = 0; i < 5; i++)
         {
