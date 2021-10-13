@@ -11,15 +11,15 @@ namespace Soluciones
         **
         *   */
 
-        public static void Main()
+        public static void IluminatiConfirmed()
         {
             int ancho;
             Console.WriteLine("Dame la base:");
             ancho = Convert.ToInt32(Console.ReadLine());
 
-            for (int i = ancho; i > 1; i--)
+            for (int i = 0; i < ancho; i++)
             {
-                for (int j = ancho; j > i; j--)
+                for (int j = ancho; j > i  ; j--)
                 {
                     Console.Write("*");
                 }

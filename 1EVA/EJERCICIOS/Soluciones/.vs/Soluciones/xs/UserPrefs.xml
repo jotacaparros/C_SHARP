@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{DE76EAB2-CA85-4D8E-836D-906C044628C3}|Default">
+  <MonoDevelop.Ide.ItemProperties.Soluciones PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EmptyClass.cs">
+    <Files>
+      <File FileName="EmptyClass.cs" Line="12" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Soluciones" expanded="True">
+            <Node name="Soluciones" expanded="True">
+              <Node name="EmptyClass.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
