@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/Users/Jota/.nuget/packages/": {}
+    "C:\\Users\\mañana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/1EVA/EJERCICIOS/Soluciones/Soluciones.csproj",
+      "projectUniqueName": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Soluciones\\Soluciones.csproj",
       "projectName": "Soluciones",
-      "projectPath": "/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/1EVA/EJERCICIOS/Soluciones/Soluciones.csproj",
-      "packagesPath": "/Users/Jota/.nuget/packages/",
-      "outputPath": "/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/1EVA/EJERCICIOS/Soluciones/obj/",
+      "projectPath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Soluciones\\Soluciones.csproj",
+      "packagesPath": "C:\\Users\\mañana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Soluciones\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Jota/.config/NuGet/NuGet.Config"
+        "C:\\Users\\mañana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -53,12 +55,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.18, 3.1.18]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
