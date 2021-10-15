@@ -13,7 +13,7 @@ namespace Soluciones
         Precio? 1
         Pagado? 100
         Su cambio es de 99: 50 20 20 5 2 2 */
-        public static void Main()
+        public static void Gorrilla()
         {
             int precio, pago, cambio, billets;
             Console.WriteLine("¿Qué precio?:");
