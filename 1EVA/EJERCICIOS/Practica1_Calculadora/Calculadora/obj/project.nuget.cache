@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u+Xre/+mwCcqoy855ZnrwYMmlP/N8Ghuh4gwSTBwXfGY5uSQCgVUh4Wj3Qyvf5PfKBRF3NFHikerZASfJqrQUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Practica1_Calculadora\\Calculadora\\Calculadora.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mañana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
