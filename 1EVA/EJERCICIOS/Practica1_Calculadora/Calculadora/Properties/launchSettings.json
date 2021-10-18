@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Calculadora": {
+      "commandName": "Project"
+    },
+    "practica_1_1": {
+      "commandName": "Executable"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\obj\Debug\netcoreapp3.1\Practica_1_1.csproj.AssemblyReference.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\obj\Debug\netcoreapp3.1\Practica_1_1.AssemblyInfoInputs.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\obj\Debug\netcoreapp3.1\Practica_1_1.AssemblyInfo.cs
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\obj\Debug\netcoreapp3.1\Practica_1_1.csproj.CoreCompileInputs.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\bin\Debug\netcoreapp3.1\Practica_1_1.exe
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\bin\Debug\netcoreapp3.1\Practica_1_1.deps.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\bin\Debug\netcoreapp3.1\Practica_1_1.runtimeconfig.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\bin\Debug\netcoreapp3.1\Practica_1_1.runtimeconfig.dev.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\bin\Debug\netcoreapp3.1\Practica_1_1.dll
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\bin\Debug\netcoreapp3.1\Practica_1_1.pdb
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\obj\Debug\netcoreapp3.1\Practica_1_1.dll
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\obj\Debug\netcoreapp3.1\Practica_1_1.pdb
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Practica_1_1\obj\Debug\netcoreapp3.1\Practica_1_1.genruntimeconfig.cache
