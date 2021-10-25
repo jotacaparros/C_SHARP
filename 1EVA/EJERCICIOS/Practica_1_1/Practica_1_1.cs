@@ -10,7 +10,7 @@ namespace Calculadora
 {
     class practica_1_1
     {
-        static void Main(string[] args)
+        static void v1(string[] args)
         {
             int numA, numB = 0, numC = 0, solucion = 0;
             char opera = 'n', salida, random;
