@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4JlAQLaTsZF1LxSJoqF5k3BCL2GZh6/G3YkwwZnoQEC58XOtUOlkeKiBCeDTgQn+GwvzjR4CRZoFwtbswKP5Q==",
+  "dgSpecHash": "zk4b/rm0MhOxt5YtL0+4ODhGh1tFh2+D79GDC4KIu51uiIzqRZQ8or1LzO7GjK9O7WEzoHbLMmzN10HRjcRHjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Practica_1_1\\Practica_1_1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\mañana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/1EVA/EJERCICIOS/Practica_1_1/Practica_1_1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
