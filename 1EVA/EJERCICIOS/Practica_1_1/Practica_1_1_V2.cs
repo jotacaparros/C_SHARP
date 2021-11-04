@@ -21,7 +21,8 @@ public class Practica_1_1_V2
 				catch(Exception)
 				{	
 					Console.WriteLine("--> Número no valido");
-				}
+                    esNumeroValido = false;
+                }
 
 			} while (!esNumeroValido);
 
@@ -96,7 +97,16 @@ public class Practica_1_1_V2
                             {
                                 Console.Write("Introduce un número: ");
                                 numero = float.Parse(Console.ReadLine());
-                                esNumeroValido = true;
+                                if (numero != 0)
+                                {
+                                    solucion /= numero;
+                                    esNumeroValido = true;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("No se puede dividir un número entre 0");
+                                    esNumeroValido = false;
+                                }
                             }
                             catch (Exception)
                             {
@@ -104,14 +114,6 @@ public class Practica_1_1_V2
                             }
 
                         } while (!esNumeroValido);
-                        try
-                        {
-                            solucion /= numero;  
-                        }
-                        catch (DivideByZeroException)
-                        {
-                            Console.WriteLine("No se puede dividir un número entre 0");
-                        }
                         break;
 
                     case '=':
@@ -119,12 +121,13 @@ public class Practica_1_1_V2
                         break;
 
                     default:
-                        Console.WriteLine("Operador no valido");
+                        Console.WriteLine("--> Operador no valido");
                         break;
                }        
             } while (!esOperacionValida);
 
             Console.WriteLine("El resultado es {0}", solucion);
+            Console.WriteLine();
 
         } while(opera != 's');
 
