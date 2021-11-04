@@ -30,7 +30,6 @@ public class Practica_1_1_V2
 
             do
             {
-
                Console.Write("Dame un operador: ");
                opera = Convert.ToChar(Console.ReadLine());
 
@@ -120,6 +119,10 @@ public class Practica_1_1_V2
                         esOperacionValida = true;
                         break;
 
+                    case 's':
+                        esOperacionValida = true;
+                        break;
+
                     default:
                         Console.WriteLine("--> Operador no valido");
                         break;
@@ -130,6 +133,6 @@ public class Practica_1_1_V2
             Console.WriteLine();
 
         } while(opera != 's');
-
+        Console.WriteLine("FIN DEL PROGRAMA");
 	}
 }
