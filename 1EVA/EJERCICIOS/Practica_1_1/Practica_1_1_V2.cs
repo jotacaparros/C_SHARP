@@ -1,21 +1,43 @@
-﻿using System;
-
+﻿// --------------------------------------------
+// José Manuel Caparrós Ivorra
+// Curso DAW/DAM 
+// Modalidad Presencial
+// Práctica nº 1
+// --------------------------------------------
+using System;
 public class Practica_1_1_V2
 {
 	public static void Main()
 	{
+//Declaro 2 variables. Una para el número que introducirá el usuario y otra que haga de contendor de las operaciones.
+
 		float numero = 0, solucion = 0;
-		char opera;
-		bool esNumeroValido = true, esOperacionValida = false;
-		do
+
+//Otra para que el usuario introduzca un operador		
+     
+        char opera;
+//Y dos más que utilizaré para romper mis bucles do while.
+//Me podría ahorrar una variable, pero me parece más ordenado saber que booleano rompe qué tipo de bucle y para tener controlado el valor.
+		
+        bool esNumeroValido = true, esOperacionValida = true;
+		
+//Entro en un bucle para que el programa se repita hasta que el usuario introduzca 's'.        
+        do
 		{
+//Dentro de este, añado dos bucles más, uno para el primer número que introduzca el usuario
+//Y otro para el operador.
 			do
 			{
+                //Este es el bucle donde declara el usuario el primer número.
+                //Y en el declaro un trycatch para asegurarme de que no me meta cualquier mierda que no sea un número.
                 try
 				{
 					Console.Write("Introduce un número: ");
 					numero = float.Parse(Console.ReadLine());
                     solucion = numero;
+
+                //Aquí uso el booleano para romper el bucle.
+
 					esNumeroValido = true;
 				}	
 				catch(Exception)
@@ -25,13 +47,18 @@ public class Practica_1_1_V2
                 }
 
 			} while (!esNumeroValido);
-
+             
+           //Aquí hago un control del valor de la variable para entrar en el bucle del operador
+          
             esOperacionValida = false;
 
             do
             {
-               Console.Write("Dame un operador: ");
+               //Este es el bucle donde el usuario introduce el operador.
+               Console.Write("Introduce un operación: ");
                opera = Convert.ToChar(Console.ReadLine());
+
+               //Para poder realizar operaciones le metemos un switch
 
                switch (opera)
                {
@@ -124,7 +151,7 @@ public class Practica_1_1_V2
                         break;
 
                     default:
-                        Console.WriteLine("--> Operador no valido");
+                        Console.WriteLine("--> Operación incorrecta");
                         break;
                }        
             } while (!esOperacionValida);
