@@ -62,6 +62,7 @@ public class Practica_1_1_V2
 
                switch (opera)
                {
+                    //En cada caso metemos el bucle de pedir un número para poder encadenar operaciones.
                     case '+':
                         do
                         {
