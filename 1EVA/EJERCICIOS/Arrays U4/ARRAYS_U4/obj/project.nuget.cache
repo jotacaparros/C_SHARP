@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uQ4+fu6a3OkW9tKrmU0xxnwV9VP+KJJImpMNmhDwyLqGnLMoO5i7oQ1OcCN4+VNy/HPts1aJ0eJtzUcqHVmqng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Arrays U4\\ARRAYS_U4\\ARRAYS_U4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mañana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
