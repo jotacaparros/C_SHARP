@@ -1,0 +1,13 @@
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\obj\Debug\netcoreapp3.1\ARRAYS_U4.csproj.AssemblyReference.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\obj\Debug\netcoreapp3.1\ARRAYS_U4.AssemblyInfoInputs.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\obj\Debug\netcoreapp3.1\ARRAYS_U4.AssemblyInfo.cs
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\obj\Debug\netcoreapp3.1\ARRAYS_U4.csproj.CoreCompileInputs.cache
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\bin\Debug\netcoreapp3.1\ARRAYS_U4.exe
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\bin\Debug\netcoreapp3.1\ARRAYS_U4.deps.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\bin\Debug\netcoreapp3.1\ARRAYS_U4.runtimeconfig.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\bin\Debug\netcoreapp3.1\ARRAYS_U4.runtimeconfig.dev.json
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\bin\Debug\netcoreapp3.1\ARRAYS_U4.dll
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\bin\Debug\netcoreapp3.1\ARRAYS_U4.pdb
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\obj\Debug\netcoreapp3.1\ARRAYS_U4.dll
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\obj\Debug\netcoreapp3.1\ARRAYS_U4.pdb
+C:\Users\mañana\source\repos\C_SHARP\1EVA\EJERCICIOS\Arrays U4\ARRAYS_U4\obj\Debug\netcoreapp3.1\ARRAYS_U4.genruntimeconfig.cache
