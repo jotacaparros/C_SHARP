@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Practica_1_1\\Practica_1_1.csproj",
-      "projectName": "Practica_1_1",
-      "projectPath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Practica_1_1\\Practica_1_1.csproj",
+      "projectUniqueName": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\PRACTICA_2_AHORCADO\\PRACTICA_2_AHORCADO.csproj",
+      "projectName": "PRACTICA_2_AHORCADO",
+      "projectPath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\PRACTICA_2_AHORCADO\\PRACTICA_2_AHORCADO.csproj",
       "packagesPath": "C:\\Users\\mañana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\Practica_1_1\\obj\\",
+      "outputPath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\PRACTICA_2_AHORCADO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mañana\\AppData\\Roaming\\NuGet\\NuGet.Config",

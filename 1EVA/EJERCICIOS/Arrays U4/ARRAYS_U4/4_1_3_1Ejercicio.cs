@@ -8,11 +8,11 @@ namespace ARRAYS_U4
         los muestre en orden inverso (pista: usa un array para almacenarlos y "for" para 
         mostrarlos).*/
 
-        public static void Main()
+        public static void xxx()
         {
             int[] num = new int[6];
            
-
+            Convert.str
 
             Console.WriteLine("Hola marinero. Dame 6 números.");
 
