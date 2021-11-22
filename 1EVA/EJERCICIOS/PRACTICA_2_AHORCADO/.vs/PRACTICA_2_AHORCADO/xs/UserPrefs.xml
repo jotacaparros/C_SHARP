@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A66973A6-19C4-43F0-95DE-8DF51C4C1708}|Default">
+  <MonoDevelop.Ide.ItemProperties.PRACTICA__2__AHORCADO PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ahorcado.cs">
+    <Files>
+      <File FileName="Ahorcado.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PRACTICA_2_AHORCADO" expanded="True">
+            <Node name="PRACTICA_2_AHORCADO" expanded="True">
+              <Node name="Ahorcado.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
