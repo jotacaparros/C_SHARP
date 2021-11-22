@@ -12,7 +12,7 @@ public class prueba_array_stirng
 		int inicio = 0;
 		int caracteres, fin;
 
-		Console.WriteLine(original.IndexOf(' '));
+		//Console.WriteLine(original.IndexOf(' '));
 
 		for (int i = 0; i < numero; i++)
         {
