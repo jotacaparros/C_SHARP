@@ -86,7 +86,6 @@ namespace PRACTICA_2_AHORCADO
             {
 
                 Console.WriteLine();
-             ;
 
                 try
                 {
@@ -96,7 +95,7 @@ namespace PRACTICA_2_AHORCADO
                         {
                             Console.Write("Letra: ");
                             letra = Convert.ToChar(Console.ReadLine());
-                            if (letra >= 'A' && letra <= 'Z' )
+                            if (letra >= 'A' && letra <= 'Z')
                             {
                                 salirBien = false;
                             }
