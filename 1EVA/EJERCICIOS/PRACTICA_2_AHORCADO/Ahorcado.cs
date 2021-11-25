@@ -15,6 +15,7 @@ namespace PRACTICA_2_AHORCADO
     {
         static void Main(string[] args)
         {
+            //Variables para los dibujos
             string ahorcado5 = @"
 ┌───┐
 │   o
@@ -63,85 +64,95 @@ namespace PRACTICA_2_AHORCADO
 │
 ┴───────
             ";
+            //Variable de la palabra que voy a utilizar como contenedora
             string oculto;
             char letra;
-            int inicio = 0, vidas = 6;
+            //V. para posiciones de las cadenas y un contador de intentos
+            int posicion, vidas = 6;
+            //V. para romper bucles
             bool salirMal = true, salirBien = true;
 
             Console.Write("Introduce una palabra: ");
-
+            //V. para modificar la palabra con "_" y letras que introduzca el usuario
             StringBuilder adivina = new StringBuilder(Console.ReadLine());
-
+            //igualo variables
             oculto = adivina.ToString();
+            //Lo transformo en minus. para poder comparar 
             oculto = oculto.ToLower();
             
-
+            //Bucle para ocultar la palabra
             for (int i = 0; i < adivina.Length; i++)
             {
                 adivina[i] = '_';
                 Console.Write("{0} ", adivina[i]);
             }
 
+            //Bucle del ahorcado
             do
             {
-
                 Console.WriteLine();
-
+                //Try catch para que solo introduzca char
                 try
                 {
-
-               
-                        do
-                        {
-                            Console.Write("Letra: ");
-                            letra = Convert.ToChar(Console.ReadLine());
-                            if (letra >= 'A' && letra <= 'Z')
-                            {
-                                salirBien = false;
-                            }
-                            else Console.WriteLine("Letra o Bala");
-                        } while (salirBien == true);
-                    
-                
-                inicio = 0;
-                letra = char.ToLower(letra);
-                if (oculto.Contains(letra))
-                {
-                        Console.WriteLine(oculto);
+                    //Bucle para que introduzca chars validos
                     do
                     {
-                        inicio = oculto.IndexOf(letra, inicio);
-                            if (inicio != -1)
+                        Console.Write("Letra: ");
+                        letra = Convert.ToChar(Console.ReadLine());
+                        if ((letra >= 'A' && letra <= 'Z') || (letra >= 'a' && letra <= 'z') || (letra >= 'Á' && letra <= 'ú'))
+                        {
+                            salirBien = false;
+                        }
+                        else Console.WriteLine("Solo puedes introducir una letra");
+                    } while (salirBien == true);
+                    //Reinicio booleano para que no salga la próxima vez
+                    salirBien = true;
+                    //Inicio la posición desde donde buscar
+                    posicion = 0;
+                    //Y la transformo en minus. para poder comparar sin problemas
+                    letra = char.ToLower(letra);
+                    //Si acierta la letra
+                    if (oculto.Contains(letra))
+                    {
+                        //Busca la posición de la letra y la cambia 
+                        do
+                        {
+                            posicion = oculto.IndexOf(letra, posicion);
+                            if (posicion != -1)
                             {
-                                adivina[inicio] = letra;
-                                if (inicio == 0) adivina[0] = char.ToUpper(letra);
+                                adivina[posicion] = letra;
+                                //Si adivina la primera letra se la pongo en mayus.
+                                if (posicion == 0) adivina[0] = char.ToUpper(letra);
                             }
-                        if (inicio >= 0) inicio++;
+                            if (posicion >= 0) posicion++;
+                        }while (posicion != -1);
+                        //Imprimo variable y convierto en minus. la primera para comparar
+                        for (int i = 0; i < adivina.Length; i++)
+                        {
+                            Console.Write("{0} ", adivina[i]);
+                            adivina[0]= char.ToLower(adivina[0]);
+                        }
+                        //Si ha acertado la palabra imprimos felicitaciones y rompemos el bucle
+                        if (adivina.Equals(oculto))
+                        {
+                            Console.WriteLine(@"
+                            ");
+                            Console.WriteLine("¡ENHORABUENA CRACK HAS GANADO!");
+                            salirMal = false;
+                        }
+                        //Si aun no ha acertado vuelvo a poner la primera letra en mayus. para la próxima que imprima
+                        adivina[0] = char.ToUpper(adivina[0]);
                     }
-                    while (inicio != -1);
-
-                    for (int i = 0; i < adivina.Length; i++)
+                    //Si no acierta
+                    else
                     {
-                        Console.Write("{0} ", adivina[i]);
-                    }
-
-                    if (oculto == adivina.ToString())
-                    {
-                        Console.WriteLine(@"
-                        ");
-                        Console.WriteLine("¡ENHORABUENA CRACK HAS GANADO! QUE GRANDE MAN ERES IMPRESIONANTE, UN FUERA DE SERIE");
-                        salirMal = false;
-                    }
-                }
-                else
-                {
-                    vidas--;
-
-                    switch (vidas)
-                    {
+                        //restamos contador e imprimimos ahorcado
+                        vidas--;
+                        switch (vidas)
+                        {
                         case 5:
                             Console.WriteLine(ahorcado5);
-                            break;
+                                break;
                         case 4:
                             Console.WriteLine(ahorcado4);
                             break;
@@ -158,16 +169,22 @@ namespace PRACTICA_2_AHORCADO
                             Console.WriteLine(ahorcado0);
                             salirMal = false;
                             break;
-                    }
-                }
+                        }
+                        for (int i = 0; i < adivina.Length; i++)
+                        {
+                            Console.Write("{0} ", adivina[i]);
+                        }
+                        Console.WriteLine();
+                        if (vidas == 0) Console.WriteLine("R.I.P. La palabra era {0}",oculto);   
+                    }      
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Error: Introduce una letra: ");
+                    Console.WriteLine("Error: Introduce solo una letra");
                 }
             }
             while (salirMal == true);
-            Console.WriteLine("FIN");
+            Console.WriteLine("----FIN----");
         }
     }
 }
