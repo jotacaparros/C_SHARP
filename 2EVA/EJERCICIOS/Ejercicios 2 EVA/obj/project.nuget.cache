@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yKH5lIJYjwppB4g+JEG4xB0hwI7zcgKzCytvuxWoLcXItM/kF8AzSN4edBIocoz5ehongNE0/XRyMKGEXnGAyQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\Ejercicios 2 EVA\\Ejercicios 2 EVA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mañana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
