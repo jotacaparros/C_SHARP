@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e2KINU9dxBXHyEjMa7h6JArGBzmJGlVkLn4C6l6DmSRhL/JGl4K7luzgFx0j2MrBwDD69qVy9Fz1cEzPVnVCDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mañana\\source\\repos\\C_SHARP\\1EVA\\EJERCICIOS\\PRACTICA_ADICIONAL\\PRACTICA_ADICIONAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mañana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
