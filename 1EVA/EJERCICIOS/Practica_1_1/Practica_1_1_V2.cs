@@ -11,7 +11,8 @@ public class Practica_1_1_V2
 	{
 //Declaro 2 variables. Una para el número que introducirá el usuario y otra que haga de contendor de las operaciones.
 
-		float numero = 0, solucion = 0;
+		float numero, solucion = 0;
+        string operacion = " ";
 
 //Otra para que el usuario introduzca un operador		
      
@@ -28,13 +29,12 @@ public class Practica_1_1_V2
 //Y otro para el operador.
 			do
 			{
-                //Este es el bucle donde declara el usuario el primer número.
-                //Y en el declaro un trycatch para asegurarme de que no me meta cualquier mierda que no sea un número.
+              
                 try
 				{
 					Console.Write("Introduce un número: ");
 					numero = float.Parse(Console.ReadLine());
-                    solucion = numero;
+                    operacion = operacion.Insert(operacion.Length - 1, numero.ToString());
 
                 //Aquí uso el booleano para romper el bucle.
 
@@ -54,96 +54,39 @@ public class Practica_1_1_V2
 
             do
             {
-               //Este es el bucle donde el usuario introduce el operador.
+               
                Console.Write("Introduce un operación: ");
                opera = Convert.ToChar(Console.ReadLine());
-
-               //Para poder realizar operaciones le metemos un switch
-
+  
                switch (opera)
                {
-                    //En cada caso metemos el bucle de pedir un número para poder encadenar operaciones.
                     case '+':
-                        do
-                        {
-                            try
-                            {
-                                Console.Write("Introduce un número: ");
-                                numero = float.Parse(Console.ReadLine());
-                                esNumeroValido = true;
-                            }
-                            catch (Exception)
-                            {
-                                Console.WriteLine("--> Número no valido");
-                            }
-
-                        } while (!esNumeroValido);
-                        solucion += numero;
-                        break;
-
                     case '-':
-                        do
-                        {
-                            try
-                            {
-                                Console.Write("Introduce un número: ");
-                                numero = float.Parse(Console.ReadLine());
-                                esNumeroValido = true;
-                            }
-                            catch (Exception)
-                            {
-                                Console.WriteLine("--> Número no valido");
-                            }
-
-                        } while (!esNumeroValido);
-                        solucion -= numero;
-                        break;
-
                     case '*':
+                    case '/':
+                        operacion = operacion.Insert(operacion.Length - 1, opera.ToString());
                         do
                         {
                             try
                             {
                                 Console.Write("Introduce un número: ");
                                 numero = float.Parse(Console.ReadLine());
+                                solucion = numero;
+                                operacion = operacion.Insert(operacion.Length - 1, numero.ToString());
+
+
                                 esNumeroValido = true;
                             }
                             catch (Exception)
                             {
                                 Console.WriteLine("--> Número no valido");
-                            }
-
-                        } while (!esNumeroValido);
-                        solucion *= numero;
-                        break;
-
-                    case '/':
-                        do
-                        {
-                            try
-                            {
-                                Console.Write("Introduce un número: ");
-                                numero = float.Parse(Console.ReadLine());
-                                if (numero != 0)
-                                {
-                                    solucion /= numero;
-                                    esNumeroValido = true;
-                                }
-                                else
-                                {
-                                    Console.WriteLine("No se puede dividir un número entre 0");
-                                    esNumeroValido = false;
-                                }
-                            }
-                            catch (Exception)
-                            {
-                                Console.WriteLine("--> Número no valido");
+                                esNumeroValido = false;
                             }
 
                         } while (!esNumeroValido);
                         break;
-
-                    case '=':
+                        case '=':
+                        
                         esOperacionValida = true;
                         break;
 
@@ -156,7 +99,7 @@ public class Practica_1_1_V2
                         break;
                }        
             } while (!esOperacionValida);
-
+            Console.WriteLine(operacion);
             Console.WriteLine("El resultado es {0}", solucion);
             Console.WriteLine();
 

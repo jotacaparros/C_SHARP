@@ -1,13 +1,26 @@
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.csproj.AssemblyReference.cache
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.AssemblyInfoInputs.cache
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.AssemblyInfo.cs
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.csproj.CoreCompileInputs.cache
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\bin\Debug\netcoreapp3.1\Ejercicios 2 EVA.exe
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\bin\Debug\netcoreapp3.1\Ejercicios 2 EVA.deps.json
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\bin\Debug\netcoreapp3.1\Ejercicios 2 EVA.runtimeconfig.json
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\bin\Debug\netcoreapp3.1\Ejercicios 2 EVA.runtimeconfig.dev.json
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\bin\Debug\netcoreapp3.1\Ejercicios 2 EVA.dll
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\bin\Debug\netcoreapp3.1\Ejercicios 2 EVA.pdb
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.dll
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.pdb
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.genruntimeconfig.cache
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.csproj.AssemblyReference.cache
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.AssemblyInfoInputs.cache
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.AssemblyInfo.cs
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.csproj.CoreCompileInputs.cache
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.exe
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.deps.json
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.runtimeconfig.json
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.runtimeconfig.dev.json
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.dll
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.pdb
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.dll
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.pdb
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.genruntimeconfig.cache
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.deps.json
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.runtimeconfig.json
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.runtimeconfig.dev.json
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.dll
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.pdb
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.csproj.AssemblyReference.cache
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.AssemblyInfoInputs.cache
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.AssemblyInfo.cs
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.csproj.CoreCompileInputs.cache
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.dll
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.pdb
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.genruntimeconfig.cache
