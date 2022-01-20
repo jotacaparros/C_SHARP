@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\mañana\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\mañana\\.nuget\\packages"
+      "/Users/Jota/.dotnet/store/|arch|/|tfm|",
+      "/Users/Jota/.nuget/packages"
     ]
   }
 }

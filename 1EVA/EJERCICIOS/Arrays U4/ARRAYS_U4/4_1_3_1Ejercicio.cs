@@ -8,17 +8,24 @@ namespace ARRAYS_U4
         los muestre en orden inverso (pista: usa un array para almacenarlos y "for" para 
         mostrarlos).*/
 
-        /*     public static void xxx()
-             {
-                 int[] num = new int[6];
+        public static void xxx()
+        {
+            int[] num = new int[6];
 
-                 Convert.str
+            Console.WriteLine("Hola marinero. Dame 6 números.");
 
-                 Console.WriteLine("Hola marinero. Dame 6 números.");
+            for (int i = 0; i < 6; i++)
+            {
+                Console.WriteLine("Número {0}", i);
+                num[i] = Convert.ToInt32(Console.ReadLine());
+            }
 
-                num[0]
+            Console.WriteLine("Tus numeros de el último al primero:");
 
-                 Console.WriteLine("Tiene {0} días", mes[i]);
-             }*/
+            for(int i = 5; i >= 0 ; i--)
+            {
+                Console.WriteLine(num[i]);
+            }
+        }
     }
 }

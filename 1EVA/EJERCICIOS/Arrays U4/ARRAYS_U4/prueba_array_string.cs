@@ -2,7 +2,7 @@
 
 public class prueba_array_stirng
 {
-	public static void Main()
+	public static void xxx()
 	{
 		string original = "Hola Adios Pepe Pablo";
 		string[] split = original.Split(' ');
