@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eIaQxWjWf3oddpGqxVBFk2ToHy3h5lT+qPPVjj2KJmkcK38b8hS6t8X7Jsv3PwiiRZncZGQD7PUO1kKECnQ7ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\Prueba WPF\\W_P_Fornicator\\W_P_Fornicator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mañana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
