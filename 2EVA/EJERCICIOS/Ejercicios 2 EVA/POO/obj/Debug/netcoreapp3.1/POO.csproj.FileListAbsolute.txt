@@ -11,3 +11,4 @@ C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\POO\obj\Debug\netcoreapp3.1\POO.dll
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\POO\obj\Debug\netcoreapp3.1\POO.pdb
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\POO\obj\Debug\netcoreapp3.1\POO.genruntimeconfig.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\POO\obj\Debug\netcoreapp3.1\POO.GeneratedMSBuildEditorConfig.editorconfig

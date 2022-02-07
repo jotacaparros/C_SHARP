@@ -8,7 +8,7 @@ namespace Ejercicios_2_EVA
         y que devuelva como resultado la suma de sus dígitos. Por ejemplo, si el
         número fuera 123 la suma sería 6.*/
 
-        public static void Main()
+        public static void xxx()
         {
 
         }

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e2737a3f-1a43-4d10-ac65-93ab99ce8f43": {
+      "ProjectGuid": "e2737a3f-1a43-4d10-ac65-93ab99ce8f43",
+      "DisplayName": "Ejercicios 2 EVA",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

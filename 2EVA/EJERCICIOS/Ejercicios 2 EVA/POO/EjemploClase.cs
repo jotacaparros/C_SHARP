@@ -2,13 +2,13 @@
 
 namespace POO
 {
-    class Program
+    class EjemploClase
     {
-        static void Main(string[] args)
+        private void xxx()
         {
-            Persona persona1 = new Persona();
-            Persona persona2 = new Persona();
-            Persona persona4 = new Persona(1212212, "Papuchi", 32);
+            PHersona persona1 = new PHersona();
+            PHersona persona2 = new PHersona();
+            PHersona persona4 = new PHersona(1212212, "Papuchi", 32);
 
             persona1.SetNombre("Carlos");
             persona1.SetDni(4326783);
@@ -31,14 +31,14 @@ namespace POO
             }
         }
 
-        public class Persona
+        public class PHersona
         {
             private int dni;
             private string nombre;
             private int edad;
 
-            public Persona(){}
-            public Persona(int dni, string nombre, int edad)
+            public PHersona(){}
+            public PHersona(int dni, string nombre, int edad)
             {
                 this.dni = dni;
                 this.nombre = nombre;
@@ -81,7 +81,7 @@ namespace POO
                 this.edad = edad;
             }
 
-            public bool Equals(Persona persona)
+            public bool Equals(PHersona persona)
             {
                 if(dni == persona.dni && nombre == persona.nombre && edad == persona.edad)
                 {
