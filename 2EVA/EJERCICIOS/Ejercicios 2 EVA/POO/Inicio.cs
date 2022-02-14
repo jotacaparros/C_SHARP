@@ -4,11 +4,20 @@ public class Inicio
 {
 	public static void Main()
 	{
-		PersonaInglesa personIng1 = new PersonaInglesa();
+		Libro manuscrito1 = new Libro();
 
-		personIng1.SetNombre("Boswell");
-		personIng1.Saludar();
-		personIng1.TomarTe();
+		manuscrito1.SetAutor("Midas Fachero");
+		manuscrito1.SetTitulo("Cómo hacer un buen frances invertido y llegar al orgasmo");
+		manuscrito1.SetPaginas(895);
+		manuscrito1.SetUbicacion("Toledo");
+
+        Console.WriteLine(manuscrito1.GetTitulo());
+        Console.WriteLine(manuscrito1.GetAutor()); 
+        Console.WriteLine(manuscrito1.GetPaginas());
+        Console.WriteLine(manuscrito1.GetUbicacion()); 
+		
+
+	
 
 	}
 }

@@ -3,7 +3,7 @@
 de la que Libro heredará todos sus atributos y métodos. Ahora la clase Libro contendrá sólo un atributo
 "paginas", número entero, con sus correspondientes Get y Set.*/
 
-public class Documento
+public class ResultadoDocumento
 {
 	string autor;
 	string titulo;

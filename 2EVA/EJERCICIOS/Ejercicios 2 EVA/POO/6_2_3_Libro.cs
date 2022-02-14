@@ -3,7 +3,7 @@
 que contendrá atributos "autor", "titulo", "ubicacion" (todos ellos strings) y métodos Get y Set
 adecuados para leer su valor y cambiarlo. Prepara también un Main (en la misma clase), que cree un 
 objeto de la clase Libro, dé valores a sus tres atributos y luego los muestre.*/
-public class Libro
+public class LibroResuelto2
 {
 	string autor;
 	string titulo;
