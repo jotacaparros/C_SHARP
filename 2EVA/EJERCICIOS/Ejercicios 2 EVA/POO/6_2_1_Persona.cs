@@ -24,7 +24,7 @@
 
 	}
 
-	public class Persona
+	public class PersonaResuelto
 	{
 		string nombre;
 

@@ -1,8 +1,8 @@
 ﻿using System;
 
-public class Porton: Puerta
+public class PortonPrueba: Puerta
 {
-	private bool bloqueada; 
+	bool bloqueada; 
 	public void Bloquear() 
 	{
 		bloqueada = true; 
