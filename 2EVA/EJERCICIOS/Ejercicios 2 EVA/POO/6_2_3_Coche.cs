@@ -3,7 +3,7 @@
 /*(6.2.4) Crea una clase "Coche", con atributos "marca" (texto), "modelo" (texto),
 "cilindrada" (número entero), potencia (número real). No hace falta que crees un Main de prueba.*/
 
-public class Coche
+public class CocheRest
 {
 	string marca;
 	string modelo;

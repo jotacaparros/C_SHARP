@@ -3,38 +3,17 @@
 que contendrá atributos "autor", "titulo", "ubicacion" (todos ellos strings) y métodos Get y Set
 adecuados para leer su valor y cambiarlo. Prepara también un Main (en la misma clase), que cree un 
 objeto de la clase Libro, dé valores a sus tres atributos y luego los muestre.*/
-public class ResueltoLibro
+public class Libro : Documento
 {
-	string autor;
-	string titulo;
-	string ubicacion;
+	int paginas;
 
-	public void SetAutor(string aut)
-	{
-		autor = aut;
-	}
-
-	public void SetTitulo(string tit)
-	{
-		titulo = tit;
-	}
-
-	public void SetUbicacion(string ubi)
-	{
-		ubicacion = ubi;
-	}
-
-	public string GetAutor()
+	public void SetPaginas(int pag)
     {
-        return autor;
-    }
-	public string GetTitulo()
-    {
-		return titulo;
-    }
-	public string GetUbicacion()
-    {
-		return ubicacion;
+        paginas = pag;
     }
 
+    public int GetPaginas()
+    {
+        return paginas;
+    }
 }
