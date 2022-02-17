@@ -9,6 +9,10 @@ dos objetos de tipo Persona y uno de tipo PersonaInglesa, les asignará un nombr
 y pedirá a la persona inglesa que tome té.*/
 public class PersonaInglesa : Persona
 {
+	public void Saludar()
+    {
+        Console.WriteLine("Hi, I am {0}", nombre);
+    }
 	public void TomarTe()
 	{
         Console.WriteLine("Estoy tomando té");

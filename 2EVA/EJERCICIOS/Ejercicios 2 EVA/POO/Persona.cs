@@ -2,7 +2,7 @@
 
 public class Persona
 {
-		string nombre;
+		public string nombre;
 
 		public void SetNombre(string name)
 		{
