@@ -13,6 +13,8 @@
             <ColumnDefinition Width="100*"/>
             <ColumnDefinition Width="100*"/>
             <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="20*"/>
         </Grid.ColumnDefinitions>
         <!--Filas-->
         <Grid.RowDefinitions>
@@ -23,7 +25,32 @@
             <RowDefinition Height="5" />
             <RowDefinition Height="20" />
             <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="20" />
+            <RowDefinition Height="5" />
+
         </Grid.RowDefinitions>
+
+        <ProgressBar Grid.Column="4" Orientation="Vertical" HorizontalAlignment="Center" Height="330" Width="30" x:Name="pb_LengthyTaskProgress" Margin="0,25,4,0"  Value="60" Grid.RowSpan="24" />
+
+
 
         <Label Grid.Column="1" Grid.Row="1" Margin="0" Padding="0">Nombre:</Label>
         <TextBox Grid.Column="2" Grid.Row="1" Margin="0"></TextBox>
@@ -33,6 +60,34 @@
 
         <Label Grid.Column="1" Grid.Row="5" Margin="0" Padding="0">Segundo apellido:</Label>
         <TextBox Grid.Column="2" Grid.Row="5" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="7" Margin="0" Padding="0">Cliente:</Label>
+        <TextBox Grid.Column="2" Grid.Row="7" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="9" Margin="0" Padding="0">Teléfono 1:</Label>
+        <TextBox Grid.Column="2" Grid.Row="9" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="11" Margin="0" Padding="0">Teléfono 2:</Label>
+        <TextBox Grid.Column="2" Grid.Row="11" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="13" Margin="0" Padding="0">Correo electrónico:</Label>
+        <TextBox Grid.Column="2" Grid.Row="13" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="15" Margin="0" Padding="0">Dirección:</Label>
+        <TextBox Grid.Column="2" Grid.Row="15" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="17" Margin="0" Padding="0">Código postal:</Label>
+        <TextBox Grid.Column="2" Grid.Row="17" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="19" Margin="0" Padding="0">Población:</Label>
+        <TextBox Grid.Column="2" Grid.Row="19" Margin="0"></TextBox>
+
+        <Label Grid.Column="1" Grid.Row="21" Margin="0" Padding="0">Provincia:</Label>
+        <TextBox Grid.Column="2" Grid.Row="21" Margin="0"></TextBox>
+
+        <Button  Grid.Column="1" Grid.Row="25" Margin="2" Padding="0">Aceptar</Button>
+        <Button  Grid.Column="2" Grid.Row="25" Margin="2" Padding="0">Cancelar</Button>
+
 
     </Grid>
 </Window>
