@@ -48,45 +48,64 @@
 
         </Grid.RowDefinitions>
 
-        <ProgressBar Grid.Column="4" Orientation="Vertical" HorizontalAlignment="Center" Height="330" Width="30" x:Name="pb_LengthyTaskProgress" Margin="0,25,4,0"  Value="60" Grid.RowSpan="24" />
+        <ProgressBar Grid.Column="4" Orientation="Vertical" HorizontalAlignment="Center" Width="33"
+         x:Name="pbBarraProgreso"  Minimum="0" Maximum="9" Value="0" Grid.RowSpan="21" Grid.Row="1" RenderTransformOrigin="0.5,0.5" >
+            <ProgressBar.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="180.000"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ProgressBar.RenderTransform>
+        </ProgressBar>
 
 
 
-        <Label Grid.Column="1" Grid.Row="1" Margin="0" Padding="0">Nombre:</Label>
-        <TextBox Grid.Column="2" Grid.Row="1" Margin="0"></TextBox>
+        <Label x:Name="lblNombre" Grid.Column="1" Grid.Row="1" Margin="0" Padding="0">Nombre:</Label>
+        <TextBox x:Name="txtNombre" Grid.Column="2" Grid.Row="1" Margin="0" MaxLength="32" TextChanged="txtNombre_TextChanged"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="3" Margin="0" Padding="0">Primer apellido:</Label>
-        <TextBox Grid.Column="2" Grid.Row="3" Margin="0"></TextBox>
+        <Label x:Name="lblPrimerApellido" Grid.Column="1" Grid.Row="3" Margin="0" Padding="0">Primer apellido:</Label>
+        <TextBox x:Name="txtPrimerApellido" Grid.Column="2" Grid.Row="3" Margin="0" MaxLength="32" TextChanged="txtPrimerApellido_TextChanged"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="5" Margin="0" Padding="0">Segundo apellido:</Label>
-        <TextBox Grid.Column="2" Grid.Row="5" Margin="0"></TextBox>
+        <Label x:Name="lblSegundoApellido" Grid.Column="1" Grid.Row="5" Margin="0" Padding="0">Segundo apellido:</Label>
+        <TextBox x:Name="txtSegundoApellido" Grid.Column="2" Grid.Row="5" Margin="0" MaxLength="32"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="7" Margin="0" Padding="0">Cliente:</Label>
-        <TextBox Grid.Column="2" Grid.Row="7" Margin="0"></TextBox>
+        <RadioButton x:Name="rbCliente" Grid.Column="1" Grid.Row="7" Margin="0" Padding="0" GroupName="tipoPersona" Checked="rbCliente_Checked">Cliente:</RadioButton>
+        <RadioButton x:Name="rbDistribuidor" Grid.Column="2" Grid.Row="7" Margin="0" GroupName="tipoPersona" Checked="rbDistribuidor_Checked">Distribuidor</RadioButton>
 
-        <Label Grid.Column="1" Grid.Row="9" Margin="0" Padding="0">Teléfono 1:</Label>
-        <TextBox Grid.Column="2" Grid.Row="9" Margin="0"></TextBox>
+        <Label x:Name="lblTelefonoUno" Grid.Column="1" Grid.Row="9" Margin="0" Padding="0">Teléfono 1:</Label>
+        <TextBox x:Name="txtTelefonoUno" Grid.Column="2" Grid.Row="9" Margin="0" MaxLength="9" TextChanged="txtTelefonoUno_TextChanged" PreviewKeyDown="txtTelefonoUno_PreviewKeyDown"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="11" Margin="0" Padding="0">Teléfono 2:</Label>
-        <TextBox Grid.Column="2" Grid.Row="11" Margin="0"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="13" Margin="0" Padding="0">Correo electrónico:</Label>
-        <TextBox Grid.Column="2" Grid.Row="13" Margin="0"></TextBox>
+        <Label x:Name="lblTelefonoDos" Grid.Column="1" Grid.Row="11" Margin="0" Padding="0">Teléfono 2:</Label>
+        <TextBox x:Name="txtTelefonoDos" Grid.Column="2" Grid.Row="11" Margin="0" MaxLength="9" PreviewKeyDown="txtTelefonoUno_PreviewKeyDown"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="15" Margin="0" Padding="0">Dirección:</Label>
-        <TextBox Grid.Column="2" Grid.Row="15" Margin="0"></TextBox>
+        <Label x:Name="lblCorreo" Grid.Column="1" Grid.Row="13" Margin="0" Padding="0">Correo electrónico:</Label>
+        <TextBox x:Name="txtCorreo" Grid.Column="2" Grid.Row="13" Margin="0" MaxLength="100" TextChanged="txtCorreo_TextChanged"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="17" Margin="0" Padding="0">Código postal:</Label>
-        <TextBox Grid.Column="2" Grid.Row="17" Margin="0"></TextBox>
+        <Label x:Name="lblDireccion" Grid.Column="1" Grid.Row="15" Margin="0" Padding="0">Dirección:</Label>
+        <TextBox x:Name="txtDireccion" Grid.Column="2" Grid.Row="15" Margin="0" MaxLength="100" TextChanged="txtDireccion_TextChanged"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="19" Margin="0" Padding="0">Población:</Label>
-        <TextBox Grid.Column="2" Grid.Row="19" Margin="0"></TextBox>
+        <Label x:Name="lblCp" Grid.Column="1" Grid.Row="17" Margin="0" Padding="0">Código postal:</Label>
+        <TextBox x:Name="txtCp" Grid.Column="2" Grid.Row="17" Margin="0" MaxLength="5" TextChanged="txtCp_TextChanged"></TextBox>
 
-        <Label Grid.Column="1" Grid.Row="21" Margin="0" Padding="0">Provincia:</Label>
-        <TextBox Grid.Column="2" Grid.Row="21" Margin="0"></TextBox>
+        <Label x:Name="lblPoblacion" Grid.Column="1" Grid.Row="19" Margin="0" Padding="0">Población:</Label>
+        <TextBox x:Name="txtPoblacion" Grid.Column="2" Grid.Row="19" Margin="0" MaxLength="32" TextChanged="txtPoblacion_TextChanged"></TextBox>
 
-        <Button  Grid.Column="1" Grid.Row="25" Margin="2" Padding="0">Aceptar</Button>
-        <Button  Grid.Column="2" Grid.Row="25" Margin="2" Padding="0">Cancelar</Button>
+        <Label x:Name="lblProvincia" Grid.Column="1" Grid.Row="21" Margin="0" Padding="0">Provincia:</Label>
+        <ComboBox x:Name="cbProvincia" Grid.Column="2" Grid.Row="21" Margin="0" SelectionChanged="cbProvincia_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding ProvinciasNombre}" FontSize="12"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <Button x:Name="btnAceptar" Grid.Column="1" Grid.Row="25" Margin="2" Padding="0" Click="btnAceptar_Click">Aceptar</Button>
+        <Button x:Name="btnCancelar" Grid.Column="2" Grid.Row="25" Margin="2" Padding="0" Click="btnCancelar_Click">Cancelar</Button>
 
 
     </Grid>
