@@ -1,0 +1,4 @@
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios WPF\Ejercicios WPF\Ejercicios WPF\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios WPF\Ejercicios WPF\Ejercicios WPF\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios WPF\Ejercicios WPF\Ejercicios WPF\obj\Debug\net6.0-windows\Ejercicios WPF_MarkupCompile.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios WPF\Ejercicios WPF\Ejercicios WPF\obj\Debug\net6.0-windows\Ejercicios WPF_MarkupCompile.lref
