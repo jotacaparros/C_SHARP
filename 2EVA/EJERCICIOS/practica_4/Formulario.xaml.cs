@@ -13,11 +13,11 @@ using System.Windows.Shapes;
 namespace practica_4
 {
     /// <summary>
-    /// Lógica de interacción para Window1.xaml
+    /// Lógica de interacción para Formulario.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Formulario : Window
     {
-        public Window1()
+        public Formulario()
         {
             InitializeComponent();
         }

@@ -5,21 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:practica_4"
         mc:Ignorable="d"
-        Title="Banco" Height="450" Width="800">
+        Title="Menu" Height="230" Width="200">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="9*"/>
             <ColumnDefinition Width="16*"/>
+            <ColumnDefinition Width="9*"/>
         </Grid.ColumnDefinitions>
-        <TabControl TabStripPlacement="Left" Grid.ColumnSpan="2">
-            <TabItem Header="Sucursales">
-                <Label Content="Content goes here..." />
-            </TabItem>
-            <TabItem Header="Cuentas" />
-            <TabItem Header="Clientes" />
-        </TabControl>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Button Content="Banco" Grid.Column="1" Grid.Row="1" Click="ClickarBotonBanco"></Button>
+        <Button Content="Formulario" Grid.Column="1" Grid.Row="3" Click="ClickarBotonFormulario"></Button>
+        <Button Content="Sucursal" Grid.Column="1" Grid.Row="5" Click="ClickarBotonSucursal"></Button>
+        
+       
     </Grid>
-
+    
+    
 
 </Window>
 

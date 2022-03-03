@@ -32,5 +32,26 @@ namespace practica_4
         {
             InitializeComponent();
         }
+
+        private void ClickarBotonBanco(object sender, RoutedEventArgs e)
+        {
+            Banco MiVentanaBanco = new Banco();
+            MiVentanaBanco.Owner = this;
+            MiVentanaBanco.Show();
+        }
+
+        private void ClickarBotonFormulario(object sender, RoutedEventArgs e)
+        {
+            Formulario MiVentanaFormulario = new Formulario();
+            MiVentanaFormulario.Owner = this;
+            MiVentanaFormulario.Show();
+        }
+
+        private void ClickarBotonSucursal(object sender, RoutedEventArgs e)
+        {
+            Sucursal MiVentanaSucursal = new Sucursal();
+            MiVentanaSucursal.Owner = this;
+            MiVentanaSucursal.Show();
+        }
     }
 }
