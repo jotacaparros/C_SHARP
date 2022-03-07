@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:practica_4"
         mc:Ignorable="d"
-        Title="Banco provincial de Alicante" Height="450" Width="800">
+        Title="Banco provincial de Alicante" Height="500" Width="800">
     <Grid>
         <Grid.RowDefinitions>
-           
+
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Menu x:Name="mPrincipal" Margin="0,0,0,395" VerticalAlignment="Top">
@@ -18,15 +18,24 @@
                     <GradientStop Color="#FF1D237B" Offset="1"/>
                 </LinearGradientBrush>
             </Menu.Background>
-            <MenuItem x:Name="mBanco" Header="_Banco" Height="42" Width="100" FontFamily="Arial" Foreground="White" Click="mBanco_Click"/>
-            <MenuItem x:Name="mFormulario" Header="_Formulario" Height="42" Foreground="White" FontFamily="Arial" Width="100"/>
+            <MenuItem x:Name="mBanco" Header="_Banco" Height="42" Width="100" FontFamily="Arial" Foreground="White" Click="Banco_Click"/>
+            <MenuItem x:Name="mFormulario" Header="_Formulario" Height="42" Foreground="White" FontFamily="Arial" Width="100" Click="Formulario_Click"/>
         </Menu>
         <TabControl x:Name="tabBanco" TabStripPlacement="left" Margin="0,40,0,0">
             <TabItem Header="Sucursal">
-                <Label Content="Content goes here..." Width="740" />
+                <Label Width="740" >
+                    
+
+                </Label>
             </TabItem>
             <TabItem Header="Cuenta" />
             <TabItem Header="Cliente" />
         </TabControl>
+        <!-- <TabControl x:Name="tabFormulario" TabStripPlacement="left" Margin="0,40,0,0">
+            <TabItem Header="Alta cliente">
+                <Label Content="Content goes here..." Width="740" />
+            </TabItem>
+            <TabItem Header="Alta sucursal" />
+        </TabControl> -->
     </Grid>
 </Window>

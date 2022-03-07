@@ -24,11 +24,25 @@ namespace practica_4
         {
             InitializeComponent();
             tabBanco.Visibility = Visibility.Hidden;
+           // tabFormulario.Visibility = Visibility.Hidden;
+
+           
+
+            
         }
 
-        private void mBanco_Click(object sender, RoutedEventArgs e)
+        private void Banco_Click(object sender, RoutedEventArgs e)
         {
+           // tabFormulario.Visibility = Visibility.Hidden;
             tabBanco.Visibility = Visibility.Visible;
         }
+
+        private void Formulario_Click(object sender, RoutedEventArgs e)
+        {
+            tabBanco.Visibility = Visibility.Hidden;
+           // tabFormulario.Visibility = Visibility.Visible;
+        }
+
+    
     }
 }
