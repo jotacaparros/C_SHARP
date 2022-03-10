@@ -1,0 +1,15 @@
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\bin\Debug\net6.0\Control Ficheros.exe
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\bin\Debug\net6.0\Control Ficheros.deps.json
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\bin\Debug\net6.0\Control Ficheros.runtimeconfig.json
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\bin\Debug\net6.0\Control Ficheros.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\bin\Debug\net6.0\ref\Control Ficheros.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\bin\Debug\net6.0\Control Ficheros.pdb
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.csproj.AssemblyReference.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.AssemblyInfo.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\ref\Control Ficheros.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.pdb
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios control de ficheros\Control Ficheros\Control Ficheros\obj\Debug\net6.0\Control Ficheros.genruntimeconfig.cache
