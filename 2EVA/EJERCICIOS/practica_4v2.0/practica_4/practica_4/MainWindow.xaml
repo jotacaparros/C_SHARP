@@ -21,12 +21,15 @@
             <MenuItem x:Name="mBanco" Header="_Banco" Height="42" Width="100" FontFamily="Arial" Foreground="White" Click="Banco_Click"/>
             <MenuItem x:Name="mFormulario" Header="_Formulario" Height="42" Foreground="White" FontFamily="Arial" Width="100" Click="Formulario_Click"/>
         </Menu>
-        <TabControl x:Name="tabBanco" TabStripPlacement="left" Margin="0,40,0,0">
+        <TabControl x:Name="tabBanco" TabStripPlacement="left" Margin="0,40,0,0" SelectionChanged="tabBanco_SelectionChanged">
             <TabItem Header="Sucursal">
-                <Label Width="740" >
-                    
+                <StackPanel>
+                    <Label Width="733" Content="Sucursal:" RenderTransformOrigin="-0.361,0.287"/>
+                    <ComboBox/>
 
-                </Label>
+                </StackPanel>
+
+
             </TabItem>
             <TabItem Header="Cuenta" />
             <TabItem Header="Cliente" />

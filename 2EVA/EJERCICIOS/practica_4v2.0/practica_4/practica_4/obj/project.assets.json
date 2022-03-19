@@ -8,19 +8,24 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mañana\\.nuget\\packages\\": {}
+    "C:\\Users\\José\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\practica_4v2.0\\practica_4\\practica_4\\practica_4.csproj",
+      "projectUniqueName": "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\practica_4v2.0\\practica_4\\practica_4\\practica_4.csproj",
       "projectName": "practica_4",
-      "projectPath": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\practica_4v2.0\\practica_4\\practica_4\\practica_4.csproj",
-      "packagesPath": "C:\\Users\\mañana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\practica_4v2.0\\practica_4\\practica_4\\obj\\",
+      "projectPath": "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\practica_4v2.0\\practica_4\\practica_4\\practica_4.csproj",
+      "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\2EVA\\EJERCICIOS\\practica_4v2.0\\practica_4\\practica_4\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mañana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

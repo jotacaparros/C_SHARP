@@ -43,6 +43,9 @@ namespace practica_4
            // tabFormulario.Visibility = Visibility.Visible;
         }
 
-    
+        private void tabBanco_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
