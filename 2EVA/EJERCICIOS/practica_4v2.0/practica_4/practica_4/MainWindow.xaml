@@ -23,10 +23,88 @@
         </Menu>
         <TabControl x:Name="tabBanco" TabStripPlacement="left" Margin="0,40,0,0">
             <TabItem Header="Sucursal">
-                <Label Width="740" >
-                    
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
 
-                </Label>
+                    <Label x:Name="lblCodigo" Grid.Column="1" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background> Codigo
+                    </Label>
+                    <Label x:Name="lblCiudad" Grid.Column="2" HorizontalAlignment="Center" Width="161" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background> Ciudad
+                    </Label>
+                    <Label x:Name="lblUbicacion" Grid.Column="3" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background> Ubicación
+                    </Label>
+                    <Label x:Name="lblCp" Grid.Column="4" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background> Código Postal
+                    </Label>
+                    <Rectangle Grid.Column="0">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Rectangle Grid.Column="5" >
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+
+
+
+
+                </Grid>
             </TabItem>
             <TabItem Header="Cuenta" />
             <TabItem Header="Cliente" />

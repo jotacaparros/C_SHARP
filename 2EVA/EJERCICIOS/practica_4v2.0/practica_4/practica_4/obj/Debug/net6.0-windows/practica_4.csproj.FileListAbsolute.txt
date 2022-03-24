@@ -2,7 +2,6 @@ C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\p
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.deps.json
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.runtimeconfig.json
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.dll
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\ref\practica_4.dll
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.pdb
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.csproj.AssemblyReference.cache
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\MainWindow.g.cs
@@ -19,3 +18,4 @@ C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\p
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\ref\practica_4.dll
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.pdb
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.genruntimeconfig.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\refint\practica_4.dll
