@@ -18,4 +18,28 @@ C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\p
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\ref\practica_4.dll
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.pdb
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\refint\practica_4.dll
+=======
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.exe
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.deps.json
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.runtimeconfig.json
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.dll
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\ref\practica_4.dll
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\bin\Debug\net6.0-windows\practica_4.pdb
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.csproj.AssemblyReference.cache
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4_MarkupCompile.cache
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4_MarkupCompile.lref
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.g.resources
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.AssemblyInfoInputs.cache
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.AssemblyInfo.cs
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.csproj.CoreCompileInputs.cache
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.dll
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\ref\practica_4.dll
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.pdb
+C:\Users\José\Desktop\Github\C_SHARP\2EVA\EJERCICIOS\practica_4v2.0\practica_4\practica_4\obj\Debug\net6.0-windows\practica_4.genruntimeconfig.cache
+>>>>>>> f7054165061de0f1bbe0a4ad03b88c74e2445300
