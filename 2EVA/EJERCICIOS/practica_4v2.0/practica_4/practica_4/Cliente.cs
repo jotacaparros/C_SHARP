@@ -11,8 +11,7 @@ namespace practica_4
         private string dniCliente;
         private string nombreCliente;
         private string apellidoCliente;
-        private short cuentaCliente;
-
+        private Cuenta cuenta;
 
         public Cliente() { }
 
@@ -33,9 +32,9 @@ namespace practica_4
             return apellidoCliente;
         }
 
-        public short GetCuentaCliente()
+        public Cuenta GetCuentaCliente()
         {
-            return cuentaCliente;
+            return cuenta;
         }
 
         /*- - - - - - - - - - - - - - Setters - - - - - - - - - - - - - -*/
@@ -54,10 +53,25 @@ namespace practica_4
         {
             apellidoCliente = apellido;
         }
-
-        public void SetCuentaCliente(short cuenta)
+        
+        public void SetCuentaCliente(Cuenta cuenta)
         {
-            cuentaCliente = cuenta;
+            this.cuenta = cuenta;
+        }
+
+        /*- - - - - - - - - - - - - - Métodos - - - - - - - - - - - - - -*/
+
+        public override string ToString()
+        {
+        //Aquí va un if para saber si imprimimos mensaje con o sin IBAN    
+           if (GetCuentaCliente().GetIbanCuenta() =="" || GetCuentaCliente().GetIbanCuenta() == null)
+               {
+                return $"DNI: {GetDniCliente()}       Nombre: {GetNombreCliente()}       Apellido: {GetApellidoCliente()}         Código cuenta: {GetCuentaCliente().GetCodigoCuenta()}";
+            }
+               else
+               {
+                return $"DNI: {GetDniCliente()}       Nombre: {GetNombreCliente()}       Apellido: {GetApellidoCliente()}         Código cuenta: {GetCuentaCliente().GetCodigoCuenta()}         IBAN: {GetCuentaCliente().GetIbanCuenta()}";
+               }
         }
     }
 }

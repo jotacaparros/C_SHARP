@@ -8,14 +8,23 @@ namespace practica_4
 {
     public class Cuenta
     {
-        private short codigoCuenta;
+        private string codigoCuenta;
         private int dineroCuenta;
+        private Cliente cliente;
+        private Sucursal sucursal;
+        private string iban;
 
-        public Cuenta() { }
+        public Cuenta(string codigoCuenta, Cliente cliente, Sucursal sucursal) {
+            
+            this.cliente = cliente;
+            this.codigoCuenta = codigoCuenta;
+            dineroCuenta = 0;
+            this.sucursal = sucursal;
+        }
 
         /*- - - - - - - - - - - - - - Getters - - - - - - - - - - - - - -*/
 
-        public short GetCodigoCuenta()
+        public string GetCodigoCuenta()
         {
             return codigoCuenta;
         }
@@ -25,9 +34,23 @@ namespace practica_4
             return dineroCuenta;
         }
 
+        public Cliente GetClienteCuenta()
+        {
+            return cliente;
+        }
+
+        public Sucursal GetSucursalCuenta()
+        {
+            return sucursal;
+        }
+
+        public string GetIbanCuenta()
+        {
+            return iban;
+        }
         /*- - - - - - - - - - - - - - Setters - - - - - - - - - - - - - -*/
 
-        public void SetCodigoCuenta(short codigo)
+        public void SetCodigoCuenta(string codigo)
         {
             codigoCuenta = codigo;
         }
@@ -36,5 +59,30 @@ namespace practica_4
         {
             dineroCuenta = dinero;
         }
+
+        public void SetClienteCuenta(Cliente cliente)
+        {
+            this.cliente = cliente;
+        }
+
+        public void SetSucursalCuenta(Sucursal sucursal)
+        {
+            this.sucursal = sucursal;
+        }
+
+        public void SetIbanCuenta(string iban)
+        {
+            this.iban = iban;
+        }
+        /*- - - - - - - - - - - - - - Métodos - - - - - - - - - - - - - -*/
+
+        public override string ToString()
+        {
+            return $"Sucursal: {GetSucursalCuenta().GetCodigoSucursal()}       Dueño: {GetClienteCuenta().GetNombreCliente()} {GetClienteCuenta().GetApellidoCliente()}       Código cuenta: {GetCodigoCuenta()}         Saldo disponible: {GetDineroCuenta()}";
+           
+           
+
+        }
+
     }
 }

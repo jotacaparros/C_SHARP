@@ -8,17 +8,21 @@ namespace practica_4
 {
     public class Sucursal
     {
-        private short codigoSucursal;
+        private string codigoSucursal;
         private string ciudadSucursal;
         private string ubicacionSucursal;
-        private int cpSucursal;
+        private string cpSucursal;
         
         public Sucursal()
-        {   
-        } 
+        {
+            codigoSucursal = "";
+            ciudadSucursal = "Alicante";
+            ubicacionSucursal = "Calle del Buen Programador ";
+            cpSucursal = "03006";
 
+        }
         /*- - - - - - - - - - - - - - Getters - - - - - - - - - - - - - -*/
-        public short GetCodigoSucursal()
+        public string GetCodigoSucursal()
         {
             return codigoSucursal;
         }
@@ -33,14 +37,14 @@ namespace practica_4
             return ubicacionSucursal;
         }
 
-        public int GetCpSucursal()
+        public string GetCpSucursal()
         {
             return cpSucursal;
         }
 
         /*- - - - - - - - - - - - - - Setters - - - - - - - - - - - - - -*/
 
-        public void SetCodigoSucursal(short codigo)
+        public void SetCodigoSucursal(string codigo)
         {
             codigoSucursal = codigo;
         }
@@ -55,10 +59,18 @@ namespace practica_4
             ubicacionSucursal = ubicacion;
         }
 
-        public void SetCpSucursal(int cp)
+        public void SetCpSucursal(string cp)
         {
             cpSucursal = cp;
         }
+
+        /*- - - - - - - - - - - - - - Métodos - - - - - - - - - - - - - -*/
+
+        public override string ToString()
+        {
+            return $"Codigo: {GetCodigoSucursal()}       Ciudad: {GetCiudadSucursal()}       Ubicación: {GetUbicacionSucursal()}         Código postal: {GetCpSucursal()}"; 
+        }
+
     }
 }        
 
