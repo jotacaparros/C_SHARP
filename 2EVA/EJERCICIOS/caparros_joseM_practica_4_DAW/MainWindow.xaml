@@ -1,0 +1,382 @@
+﻿<Window x:Class="practica_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:practica_4"
+        mc:Ignorable="d"
+        Title="Banco provincial de Alicante" Height="500" Width="815">
+    <Grid>
+        <Grid.RowDefinitions>
+
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu x:Name="mPrincipal" Margin="0,0,0,395" VerticalAlignment="Top">
+            <Menu.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3641ED"/>
+                    <GradientStop Color="#FF1D237B" Offset="1"/>
+                </LinearGradientBrush>
+            </Menu.Background>
+            <MenuItem x:Name="mBanco" Header="_Banco" Height="42" Width="100" FontFamily="Arial" Foreground="White" Click="Banco_Click"/>
+            <MenuItem x:Name="mFormulario" Header="_Formulario" Height="42" Foreground="White" FontFamily="Arial" Width="100" Click="Formulario_Click"/>
+        </Menu>
+        <TabControl x:Name="tabBanco" TabStripPlacement="left" Margin="0,40,0,0">
+            <TabItem x:Name="tabSucursal" Header="Sucursal">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <ListBox x:Name="lbSucursal" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5"></ListBox>
+
+
+                    <!--Estos labes y rectangulos son decorativos. En un primer momento quise que llevaran el nombre del campo con dataGrid-->
+                    <Label x:Name="lblCodigo" Grid.Column="1" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblCiudad" Grid.Column="2" HorizontalAlignment="Center" Width="161" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblUbicacion" Grid.Column="3" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblCp" Grid.Column="4" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblCuentas" Grid.Column="5" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Rectangle Grid.Column="0" Margin="0,2,0,2">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Rectangle Grid.Column="6" Margin="0,2,0,2" >
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Grid>
+
+            </TabItem>
+            <TabItem x:Name="tabCuenta" Header="Cuenta">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="40"/>
+
+                    </Grid.RowDefinitions>
+                    <ListBox x:Name="lbCuenta" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5"></ListBox>
+
+                    <!--Estos labes y rectangulos son decorativos. En un primer momento quise que llevaran el nombre del campo con dataGrid-->
+                    <Label x:Name="lblSucursalCuenta" Grid.Column="1" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblDueñoCuenta" Grid.Column="2" HorizontalAlignment="Center" Width="161" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblCodigoCuenta" Grid.Column="3" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblDineroCuenta" Grid.Column="4" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Rectangle Grid.Column="0" Margin="0,2,0,2">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Rectangle Grid.Column="4" Grid.ColumnSpan="3" Margin="131,2,52,2" >
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Rectangle Grid.Column="6" Margin="0,2,0,2" >
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Label x:Name="lblIngresaCuenta" Content="Ingresa importe:" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1" Height="30" Width="111"/>
+                    <TextBox x:Name="txtIngresaCuenta" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="126" Height="20"/>
+                    <Button x:Name="btnIngresar" Grid.Column="2" Content="Ingresar" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="112" Margin="7,0,0,0" Click="btnIngresar_Click"/>
+
+                    <Label x:Name="lblRetirarCuenta" Content="Retirar importe:" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Grid.Column="4" Height="30" Width="111"/>
+                    <TextBox x:Name="txtRetirarCuenta" Grid.Column="5" HorizontalAlignment="Left" Grid.Row="2" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="126" Height="20"/>
+                    <Button x:Name="btnRetirar" Grid.Column="5" Content="Retirar" HorizontalAlignment="Left" Grid.Row="3" VerticalAlignment="Center" Width="112" Margin="7,0,0,0" Click="btnRetirar_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabCliente" Header="Cliente">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+
+                    <ListBox x:Name="lbCliente" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5"></ListBox>
+                    <Button x:Name="btnCrearIBAN" Grid.Column="5" Content="Generar IBAN" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" Height="20" Width="111" Click="btnCrearIBAN_Click"/>
+
+                    <!--Estos labes y rectangulos son decorativos. En un primer momento quise que llevaran el nombre del campo con dataGrid-->
+                    <Label x:Name="lblDniCliente" Grid.Column="1" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblNombreCliente" Grid.Column="2" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblApellidoCliente" Grid.Column="3" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblCuentaCliente" Grid.Column="4" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Label x:Name="lblIbanCliente" Grid.Column="5" HorizontalAlignment="Center" Width="160" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26">
+                        <Label.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Label.Background>
+                    </Label>
+                    <Rectangle Grid.Column="0" Margin="0,2,0,2">
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <Rectangle Grid.Column="6" Margin="0,2,0,2" >
+                        <Rectangle.Fill>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FFCECECE" Offset="1"/>
+                                <GradientStop Color="WhiteSmoke" Offset="0"/>
+                            </LinearGradientBrush>
+                        </Rectangle.Fill>
+                    </Rectangle>
+
+                </Grid>
+            </TabItem>
+            
+        </TabControl>
+       <TabControl x:Name="tabFormulario" TabStripPlacement="left" Margin="0,40,0,0" SelectionChanged="tabFormulario_SelectionChanged">
+            <TabItem x:Name="tabAltaSucursal" Header="Alta sucursal">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="6*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label x:Name="lblCodigoSucursalAlta" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Width="128" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">Código sucursal:
+                    </Label>
+                    <Label x:Name="lblGenerarCodigoSucursalAlta" Grid.Column="3" Grid.Row="1" Background="#FFE8E6E6"></Label>
+
+                    <Label x:Name="lblCiudadSucursalAlta" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Width="128" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">Ciudad sucursal:
+                    </Label>
+                    <TextBox x:Name="txtCiudadSucursalAlta" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="255" Height="26" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="0,0,0,0"/>
+
+                    <Label x:Name="lblUbicacionSucursalAlta" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" Width="128" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">Ubicación sucursal:
+                    </Label>
+                    <TextBox x:Name="txtUbicacionSucursalAlta" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="255" Height="26" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="0,0,0,0"/>
+
+                    <Label x:Name="lblCpSucursalAlta" Grid.Row="7" HorizontalAlignment="Center" Width="128" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}" Grid.Column="1">Código postal sucursal:
+                    </Label>
+                    <TextBox x:Name="txtCpSucursalAlta" Grid.Column="3" HorizontalAlignment="Left" Grid.Row="7" TextWrapping="Wrap" VerticalAlignment="Center" Width="255" Height="26" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="0,0,0,0"/>
+
+                    <Button x:Name="btnCrearAltaSucursal" Grid.Column="3" Content="Crear alta sucursal" HorizontalAlignment="Center" Height="26" Grid.Row="9" VerticalAlignment="Center" Width="148" Click="btnCrearAltaSucursal_Click"/>
+
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="tabAltaCliente" Header="Alta cliente">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="3*"/>
+                        <ColumnDefinition Width="0.2*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="2*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label x:Name="lblDniClienteAlta" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Width="101" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">DNI:
+                    </Label>
+                    <TextBox x:Name="txtDniClienteAlta" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Width="255" Height="26" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="0,0,0,0"/>
+
+                    <Label x:Name="lblNombreClienteAlta" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Width="101" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">Nombre:
+                    </Label>
+                    <TextBox x:Name="txtNombreClienteAlta" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Width="255" Height="26" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="0,0,0,0"/>
+
+                    <Label x:Name="lblApellidoClienteAlta" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" Width="101" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">Apellido:
+                    </Label>
+                    <TextBox x:Name="txtApellidoClienteAlta" Grid.Column="2" HorizontalAlignment="Left" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Center" Width="255" Height="26" Grid.ColumnSpan="3" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Margin="0,0,0,0"/>
+
+                    <Label x:Name="lblSucursalClienteAlta" Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center" Width="101" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">Sucursal:
+                    </Label>
+                    <ComboBox x:Name="cbSucursalesAltaCliente" Grid.Column="2"  HorizontalAlignment="Left" Grid.Row="7" VerticalAlignment="Center" Width="255" Height="26" Grid.ColumnSpan="3" Margin="0,0,0,0"/>
+                    <Label x:Name="lblCuentaClienteAlta" Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center" Width="101" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Corbel" FontWeight="Normal" FontStretch="Normal" Height="26" Background="{x:Null}">Cuenta:
+                    </Label>
+                    <Label x:Name="lblGenerarCuentaClienteAlta" Grid.Column="2" Grid.Row="9" HorizontalAlignment="Left" Width="211" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontFamily="Segoe UI" FontWeight="Normal" FontStretch="Normal" Height="26" Background="#FFE6E6E6" Grid.ColumnSpan="3"/>
+                    <Button x:Name="btnCrearAltaCliente" Grid.Column="3" Content="Crear alta cliente" HorizontalAlignment="Center" Height="26" Grid.Row="11" VerticalAlignment="Center" Width="148" Click="btnCrearAltaCliente_Click"/>
+
+                </Grid>
+            </TabItem>
+            
+        </TabControl>
+    </Grid>
+</Window>
