@@ -1,0 +1,15 @@
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/bin/Debug/net5.0/PruebasExamen.deps.json
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/bin/Debug/net5.0/PruebasExamen.runtimeconfig.json
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/bin/Debug/net5.0/PruebasExamen.runtimeconfig.dev.json
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/bin/Debug/net5.0/PruebasExamen.dll
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/bin/Debug/net5.0/ref/PruebasExamen.dll
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/bin/Debug/net5.0/PruebasExamen.pdb
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.csproj.AssemblyReference.cache
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.AssemblyInfoInputs.cache
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.AssemblyInfo.cs
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.csproj.CoreCompileInputs.cache
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.dll
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/ref/PruebasExamen.dll
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.pdb
+/Users/Jota/Desktop/Modulo_DAW/GitHub/CSharp/2EVA/EJERCICIOS/PruebasExamen/PruebasExamen/obj/Debug/net5.0/PruebasExamen.genruntimeconfig.cache

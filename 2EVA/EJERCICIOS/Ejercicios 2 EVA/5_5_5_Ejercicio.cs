@@ -15,7 +15,7 @@ namespace Ejercicios_2_EVA
 
         public static SumaCifras(int x)
         {
-           new array[]= 
+          
         }
     }
 }
