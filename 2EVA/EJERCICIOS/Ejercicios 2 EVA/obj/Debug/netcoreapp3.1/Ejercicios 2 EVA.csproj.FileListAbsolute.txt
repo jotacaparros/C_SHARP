@@ -24,10 +24,4 @@ C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA
 C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/bin/Debug/netcoreapp3.1/Ejercicios 2 EVA.pdb
 C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.genruntimeconfig.cache
 C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.csproj.AssemblyReference.cache
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.csproj.AssemblyReference.cache
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.AssemblyInfoInputs.cache
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.AssemblyInfo.cs
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.csproj.CoreCompileInputs.cache
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.dll
-C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\2EVA\EJERCICIOS\Ejercicios 2 EVA\obj\Debug\netcoreapp3.1\Ejercicios 2 EVA.pdb
+C:/Users/mañana/Desktop/DAW 1º/Github/C_SHARP/2EVA/EJERCICIOS/Ejercicios 2 EVA/obj/Debug/netcoreapp3.1/Ejercicios 2 EVA.GeneratedMSBuildEditorConfig.editorconfig
