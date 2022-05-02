@@ -1,0 +1,5 @@
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Solucion Examen EVA 2\Reordenar listas y control de ficheros\Reordenar listas y control de ficheros\obj\Debug\net5.0-windows\Reordenar listas y control de ficheros.csproj.AssemblyReference.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Solucion Examen EVA 2\Reordenar listas y control de ficheros\Reordenar listas y control de ficheros\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Solucion Examen EVA 2\Reordenar listas y control de ficheros\Reordenar listas y control de ficheros\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Solucion Examen EVA 2\Reordenar listas y control de ficheros\Reordenar listas y control de ficheros\obj\Debug\net5.0-windows\Reordenar listas y control de ficheros_MarkupCompile.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Solucion Examen EVA 2\Reordenar listas y control de ficheros\Reordenar listas y control de ficheros\obj\Debug\net5.0-windows\Reordenar listas y control de ficheros_MarkupCompile.lref
