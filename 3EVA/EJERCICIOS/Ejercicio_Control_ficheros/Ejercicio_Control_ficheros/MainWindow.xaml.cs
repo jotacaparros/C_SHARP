@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Input;
@@ -12,10 +13,10 @@ namespace Examen2Solucion
     {
         //Variable global que almacena mis Clientes
         public static List<Cliente> clientes = new List<Cliente>();
-        
+        public static ArrayList clientes_array = new ArrayList();
+
         //Variable global que almacena mis Distribuidores
         public static List<Distribuidor> distribuidores = new List<Distribuidor>();
-
         public MainWindow()
         {
             InitializeComponent();
@@ -83,6 +84,7 @@ namespace Examen2Solucion
                 {
                     Cliente cliente = new Cliente(txtNombre.Text, txtApellido.Text, txtTelefono1.Text, txtTelefono2.Text, txtDireccion.Text, txtEmail.Text, txtPoblacion.Text, cbProvincia.Text);
                     clientes.Add(cliente);
+                    clientes_array.Add(cliente);
                     AñadirElemento("Cliente", cliente);
                 }
                 else
@@ -116,7 +118,11 @@ namespace Examen2Solucion
             ReiniciarFormulario(tipo);
             
             if (p.GetType().Name == "Cliente")
-                lbClientes.Items.Add(((Cliente)p).ToString());
+            {
+             lbLista_datos.Items.Add(((Cliente)p).ToString());
+             lbClientes.Items.Add(((Cliente)p).ToString());
+
+            }
             else
                 lbDistribuidor.Items.Add(((Distribuidor)p).ToString());
         }
