@@ -87,7 +87,7 @@ namespace Examen2Solucion
                 }
                 else
                 {
-                    Distribuidor distribuidor = new Distribuidor(txtNombre.Text, txtApellido.Text, txtTelefono1.Text, txtTelefono2.Text, txtDireccion.Text, txtEmail.Text, txtPoblacion.Text, cbProvincia.Text /*lbProvincia.SelectedItem.ToString()*/);
+                    Distribuidor distribuidor = new Distribuidor(txtNombre.Text, txtApellido.Text, txtTelefono1.Text, txtTelefono2.Text, txtDireccion.Text, txtEmail.Text, txtPoblacion.Text, lbProvincia.SelectedItem.ToString());
                     distribuidores.Add(distribuidor);
                     AñadirElemento("Distribuidor", distribuidor);
                 }

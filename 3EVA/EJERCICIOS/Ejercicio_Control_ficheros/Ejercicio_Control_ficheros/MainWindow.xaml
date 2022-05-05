@@ -42,8 +42,14 @@
                         <ListBoxItem Content="Cuenca"/>
                         <ListBoxItem Content="Teruel"/>
                     </ListBox>
-                    <Button x:Name="btnEnviar" Content="Enviar" HorizontalAlignment="Left" Margin="234,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnEnviar_Click"/>
-                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="396,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click"/>
+                    <Button x:Name="btnEnviar" Content="Enviar" HorizontalAlignment="Left" Margin="85,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnEnviar_Click"/>
+                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="195,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click"/>
+                    <ListBox HorizontalAlignment="Left" Height="118" Margin="366,251,0,0" VerticalAlignment="Top" Width="440" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+                    <Button x:Name="btnMostrar" Content="Mostrar" HorizontalAlignment="Left" Margin="366,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click"/>
+                    <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="459,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click"/>
+                    <Button x:Name="btnReordenar" Content="Reordenar" HorizontalAlignment="Left" Margin="551,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click" RenderTransformOrigin="2.229,0.843"/>
+                    <Button x:Name="btnGuardar_fichero" Content="Guarda fichero" HorizontalAlignment="Left" Margin="724,421,0,0" VerticalAlignment="Top" Width="94" Height="25" Click="btnCancelar_Click" RenderTransformOrigin="2.229,0.843"/>
+                    <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="651,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click" RenderTransformOrigin="2.229,0.843"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Datos">
