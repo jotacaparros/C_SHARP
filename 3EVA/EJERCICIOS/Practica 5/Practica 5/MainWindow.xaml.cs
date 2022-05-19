@@ -20,9 +20,29 @@ namespace Practica_5
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static List<Cliente> listaClientes = new List<Cliente>(); //Donde guardo la lista de objetos clientes? en el main o en el global?
+
         public MainWindow()
         {
             InitializeComponent();
+            
+          
+        }
+
+        private void btnAnadir_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        public void GuardarDatos(Cliente c)
+        {
+            // parts.Add(new Part() { PartName = "crank arm", PartId = 1234 });
+            listaClientes.Add(new Cliente() { Cliente.SetNombre(txtNombre.Text), Cliente.SetApellido(txtApellido)  });
+
+
+            /*Cliente.nombre = txtNombre.Text;
+            ape = txtApellido.Text;
+            pro = lbProvincia.*/
         }
     }
 }
