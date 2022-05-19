@@ -1,0 +1,15 @@
+E:\programacion\ejercicio_8.1.1\obj\Debug\MainWindow.g.cs
+E:\programacion\ejercicio_8.1.1\obj\Debug\App.g.cs
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1_MarkupCompile.cache
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1_MarkupCompile.lref
+E:\programacion\ejercicio_8.1.1\bin\Debug\ejercicio_8.1.1.exe.config
+E:\programacion\ejercicio_8.1.1\bin\Debug\ejercicio_8.1.1.exe
+E:\programacion\ejercicio_8.1.1\bin\Debug\ejercicio_8.1.1.pdb
+E:\programacion\ejercicio_8.1.1\obj\Debug\MainWindow.baml
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1.g.resources
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8._1._1.Properties.Resources.resources
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1.csproj.GenerateResource.cache
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1.csproj.CoreCompileInputs.cache
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1.exe
+E:\programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1.pdb
+E:\Programacion\ejercicio_8.1.1\obj\Debug\ejercicio_8.1.1.csprojAssemblyReference.cache

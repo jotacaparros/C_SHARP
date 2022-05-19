@@ -1,0 +1,12 @@
+E:\programacion\ejercicio_8_14_2\bin\Debug\netcoreapp3.1\ejercicio_8_14_2.exe
+E:\programacion\ejercicio_8_14_2\bin\Debug\netcoreapp3.1\ejercicio_8_14_2.deps.json
+E:\programacion\ejercicio_8_14_2\bin\Debug\netcoreapp3.1\ejercicio_8_14_2.runtimeconfig.json
+E:\programacion\ejercicio_8_14_2\bin\Debug\netcoreapp3.1\ejercicio_8_14_2.runtimeconfig.dev.json
+E:\programacion\ejercicio_8_14_2\bin\Debug\netcoreapp3.1\ejercicio_8_14_2.dll
+E:\programacion\ejercicio_8_14_2\bin\Debug\netcoreapp3.1\ejercicio_8_14_2.pdb
+E:\programacion\ejercicio_8_14_2\obj\Debug\netcoreapp3.1\ejercicio_8_14_2.AssemblyInfoInputs.cache
+E:\programacion\ejercicio_8_14_2\obj\Debug\netcoreapp3.1\ejercicio_8_14_2.AssemblyInfo.cs
+E:\programacion\ejercicio_8_14_2\obj\Debug\netcoreapp3.1\ejercicio_8_14_2.csproj.CoreCompileInputs.cache
+E:\programacion\ejercicio_8_14_2\obj\Debug\netcoreapp3.1\ejercicio_8_14_2.dll
+E:\programacion\ejercicio_8_14_2\obj\Debug\netcoreapp3.1\ejercicio_8_14_2.pdb
+E:\programacion\ejercicio_8_14_2\obj\Debug\netcoreapp3.1\ejercicio_8_14_2.genruntimeconfig.cache

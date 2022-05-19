@@ -10,30 +10,34 @@
         <TabControl>
             <TabItem Header="Formulario">
                 <Grid>
-                    <TextBox x:Name="txtNombre" MaxLength="32" HorizontalAlignment="Left" Margin="115,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
-                    <Label x:Name="lblNombre" Content="Nombre*" HorizontalAlignment="Left" Margin="115,46,0,0" VerticalAlignment="Top"/>
-                    <Label x:Name="lblApellido" Content="Apellido*" HorizontalAlignment="Left" Margin="115,107,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="txtApellido" MaxLength="32" HorizontalAlignment="Left" Margin="115,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
-                    <Label x:Name="lblTelefono1" Content="Teléfono 1*" HorizontalAlignment="Left" Margin="110,251,0,0" VerticalAlignment="Top"/>
-                    <Label x:Name="lblTelefono2" Content="Teléfono 2" HorizontalAlignment="Left" Margin="220,251,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="txtTelefono1" MaxLength="9" HorizontalAlignment="Left" Margin="110,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" PreviewTextInput="Number_Validation"/>
-                    <TextBox x:Name="txtTelefono2" MaxLength="9" HorizontalAlignment="Left" Margin="220,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" PreviewTextInput="Number_Validation"/>
-                    <Label x:Name="lblTipo" Content="Tipo*" HorizontalAlignment="Left" Margin="117,177,0,0" VerticalAlignment="Top"/>
-                    <RadioButton x:Name="rbCliente" Content="Cliente" HorizontalAlignment="Left" Margin="118,208,0,0" VerticalAlignment="Top" GroupName="Tipo" Checked="rbCliente_Checked"/>
-                    <RadioButton x:Name="rbDistribuidor" Content="Distribuidor" HorizontalAlignment="Left" Margin="212,208,0,0" VerticalAlignment="Top" GroupName="Tipo" Checked="rbDistribuidor_Checked"/>
-                    <Label x:Name="lblEmail" Content="Correo electrónico*" HorizontalAlignment="Left" Margin="366,46,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="txtEmail" MaxLength="100" HorizontalAlignment="Left" Margin="366,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
-                    <Label x:Name="lblDireccion" Content="Dirección*" HorizontalAlignment="Left" Margin="366,107,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="txtDireccion" MaxLength="100" HorizontalAlignment="Left" Margin="366,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
-                    <Label x:Name="lblPoblacion" Content="Población*" HorizontalAlignment="Left" Margin="364,177,0,0" VerticalAlignment="Top"/>
-                    <TextBox x:Name="txtPoblacion" MaxLength="32" HorizontalAlignment="Left" Margin="366,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210"/>
-                    <Label x:Name="lblProvincia" Content="Provincia*" HorizontalAlignment="Left" Margin="630,46,0,0" VerticalAlignment="Top"/>
-                    <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="625,79,0,0" VerticalAlignment="Top" Width="150" Visibility="Hidden">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="25*"/>
+                        <ColumnDefinition Width="186*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="txtNombre" MaxLength="32" HorizontalAlignment="Left" Margin="15,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Grid.Column="1"/>
+                    <Label x:Name="lblNombre" Content="Nombre*" HorizontalAlignment="Left" Margin="15,46,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Label x:Name="lblApellido" Content="Apellido*" HorizontalAlignment="Left" Margin="15,107,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtApellido" MaxLength="32" HorizontalAlignment="Left" Margin="15,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Grid.Column="1"/>
+                    <Label x:Name="lblTelefono1" Content="Teléfono 1*" HorizontalAlignment="Left" Margin="10,251,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <Label x:Name="lblTelefono2" Content="Teléfono 2" HorizontalAlignment="Left" Margin="120,251,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtTelefono1" MaxLength="9" HorizontalAlignment="Left" Margin="10,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" PreviewTextInput="Number_Validation" Grid.Column="1"/>
+                    <TextBox x:Name="txtTelefono2" MaxLength="9" HorizontalAlignment="Left" Margin="120,282,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" PreviewTextInput="Number_Validation" Grid.Column="1"/>
+                    <Label x:Name="lblTipo" Content="Tipo*" HorizontalAlignment="Left" Margin="17,177,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <RadioButton x:Name="rbCliente" Content="Cliente" HorizontalAlignment="Left" Margin="18,208,0,0" VerticalAlignment="Top" GroupName="Tipo" Checked="rbCliente_Checked" Grid.Column="1"/>
+                    <RadioButton x:Name="rbDistribuidor" Content="Distribuidor" HorizontalAlignment="Left" Margin="112,208,0,0" VerticalAlignment="Top" GroupName="Tipo" Checked="rbDistribuidor_Checked" Grid.Column="1"/>
+                    <Label x:Name="lblEmail" Content="Correo electrónico*" HorizontalAlignment="Left" Margin="266,46,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtEmail" MaxLength="100" HorizontalAlignment="Center" Margin="0,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Grid.Column="1"/>
+                    <Label x:Name="lblDireccion" Content="Dirección*" HorizontalAlignment="Left" Margin="266,107,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtDireccion" MaxLength="100" HorizontalAlignment="Center" Margin="0,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Grid.Column="1"/>
+                    <Label x:Name="lblPoblacion" Content="Población*" HorizontalAlignment="Left" Margin="264,177,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <TextBox x:Name="txtPoblacion" MaxLength="32" HorizontalAlignment="Center" Margin="0,205,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Grid.Column="1"/>
+                    <Label x:Name="lblProvincia" Content="Provincia*" HorizontalAlignment="Left" Margin="530,46,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+                    <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="525,79,0,0" VerticalAlignment="Top" Width="150" Visibility="Hidden" Grid.Column="1">
                         <ComboBoxItem Content="Castellón"/>
                         <ComboBoxItem Content="Valencia"/>
                         <ComboBoxItem Content="Alicante"/>
                     </ComboBox>
-                    <ListBox x:Name="lbProvincia" HorizontalAlignment="Left" Margin="625,79,0,0" VerticalAlignment="Top" Width="150" Height="200" Visibility="Hidden">
+                    <ListBox x:Name="lbProvincia" HorizontalAlignment="Left" Margin="525,79,0,0" VerticalAlignment="Top" Width="150" Height="200" Visibility="Hidden" Grid.Column="1">
                         <ListBoxItem Content="Castellón"/>
                         <ListBoxItem Content="Valencia"/>
                         <ListBoxItem Content="Alicante"/>
@@ -42,16 +46,16 @@
                         <ListBoxItem Content="Cuenca"/>
                         <ListBoxItem Content="Teruel"/>
                     </ListBox>
-                    <Button x:Name="btnEnviar" Content="Enviar" HorizontalAlignment="Left" Margin="85,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnEnviar_Click"/>
-                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="195,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click"/>
-                    <ListBox x:Name="lbLista_datos" HorizontalAlignment="Left" Height="118" Margin="366,251,0,0" VerticalAlignment="Top" Width="440" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-                    <Button x:Name="btnMostrar" Content="Mostrar" HorizontalAlignment="Left" Margin="366,381,0,0" VerticalAlignment="Top" Width="70" Height="25"/>
-                    <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="459,381,0,0" VerticalAlignment="Top" Width="70" Height="25"/>
-                    <Button x:Name="btnReordenar" Content="Reordenar" HorizontalAlignment="Left" Margin="551,381,0,0" VerticalAlignment="Top" Width="70" Height="25"  RenderTransformOrigin="2.229,0.843"/>
-                    <Button x:Name="btnGuardar_fichero" Content="Guarda fichero" HorizontalAlignment="Left" Margin="724,421,0,0" VerticalAlignment="Top" Width="94" Height="25"  RenderTransformOrigin="2.229,0.843"/>
-                    <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="651,381,0,0" VerticalAlignment="Top" Width="70" Height="25" RenderTransformOrigin="2.229,0.843"/>
-                    <Button x:Name="btnSubir" Content="Subir" HorizontalAlignment="Left" Margin="459,421,0,0" VerticalAlignment="Top" Width="70" Height="25" />
-                    <Button x:Name="btnBajar" Content="Bajar" HorizontalAlignment="Left" Margin="551,421,0,0" VerticalAlignment="Top" Width="70" Height="25"/>
+                    <Button x:Name="btnEnviar" Content="Enviar" HorizontalAlignment="Left" Margin="85,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnEnviar_Click" Grid.ColumnSpan="2"/>
+                    <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="95,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Click="btnCancelar_Click" Grid.Column="1"/>
+                    <ListBox x:Name="lbLista_datos" HorizontalAlignment="Left" Height="118" Margin="266,251,0,0" VerticalAlignment="Top" Width="440" d:ItemsSource="{d:SampleData ItemCount=5}" Grid.Column="1"/>
+                    <Button x:Name="btnMostrar" Content="Mostrar" HorizontalAlignment="Left" Margin="266,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Grid.Column="1"/>
+                    <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="359,381,0,0" VerticalAlignment="Top" Width="70" Height="25" Grid.Column="1"/>
+                    <Button x:Name="btnReordenar" Content="Reordenar" HorizontalAlignment="Left" Margin="451,381,0,0" VerticalAlignment="Top" Width="70" Height="25"  RenderTransformOrigin="2.229,0.843" Grid.Column="1"/>
+                    <Button x:Name="btnGuardar_fichero" Content="Guarda fichero" HorizontalAlignment="Left" Margin="624,421,0,0" VerticalAlignment="Top" Width="94" Height="25"  RenderTransformOrigin="2.229,0.843" Grid.Column="1"/>
+                    <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="551,381,0,0" VerticalAlignment="Top" Width="70" Height="25" RenderTransformOrigin="2.229,0.843" Grid.Column="1"/>
+                    <Button x:Name="btnSubir" Content="Subir" HorizontalAlignment="Left" Margin="359,421,0,0" VerticalAlignment="Top" Width="70" Height="25" Grid.Column="1" />
+                    <Button x:Name="btnBajar" Content="Bajar" HorizontalAlignment="Left" Margin="451,421,0,0" VerticalAlignment="Top" Width="70" Height="25" Grid.Column="1"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Datos">

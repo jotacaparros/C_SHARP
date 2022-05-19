@@ -1,0 +1,10 @@
+[
+	{
+		Nombre: Antonio,
+		Tamaño: 789 KB
+	},
+	{
+		Nombre: Pedro,
+		Tamaño: 666 KB
+	},
+]

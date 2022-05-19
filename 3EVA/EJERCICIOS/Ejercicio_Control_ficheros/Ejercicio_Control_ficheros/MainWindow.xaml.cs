@@ -96,6 +96,9 @@ namespace Examen2Solucion
             }
         }
 
+        /*
+         lbxlientes.items.insert(pos -1,  )
+         */
         //Función que confirma el elemento creado y reinicia el formulario
         private void ReiniciarFormulario(string tipo)
         {
