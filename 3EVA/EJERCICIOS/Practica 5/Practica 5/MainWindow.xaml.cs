@@ -24,9 +24,19 @@ namespace Practica_5
 
         public MainWindow()
         {
+
             InitializeComponent();
-            
-          
+            cbProvincia.Items.Add("Alicante");
+            cbProvincia.Items.Add("Castellón");
+            cbProvincia.Items.Add("Valencia");
+
+           /* List<Provincias> listaProvincias = new List<Provincias>();
+            listaProvincias.Add(new Provincias { NombreProvincia = "Alicante" });
+            listaProvincias.Add(new Provincias { NombreProvincia = "Castellón" });
+            listaProvincias.Add(new Provincias { NombreProvincia = "Valencia" });
+
+            cbProvincia.ItemsSource = listaProvincias;
+
         }
 
         private void btnAnadir_Click(object sender, RoutedEventArgs e)
@@ -37,12 +47,35 @@ namespace Practica_5
         public void GuardarDatos(Cliente c)
         {
             // parts.Add(new Part() { PartName = "crank arm", PartId = 1234 });
-            listaClientes.Add(new Cliente() { Cliente.SetNombre(txtNombre.Text), Cliente.SetApellido(txtApellido)  });
-
+            //listaClientes.Add(new Cliente() { Cliente.SetNombre(txtNombre.Text), Cliente.SetApellido(txtApellido.Text), Cliente.SetProvincia(cbProvincia.SelectedItem)});
+            // Cliente listaClientes = new Cliente(txtNombre.Text, txtApellido.Text, cbProvincia.Text);
+            //listaCliente.Add(cliente1);
 
             /*Cliente.nombre = txtNombre.Text;
             ape = txtApellido.Text;
             pro = lbProvincia.*/
+        }
+
+        private void cbProvincia_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            
+        }
+
+        public class Provincias
+        {
+            public string NombreProvincia { get; set; }
+        }
+
+        private void btnAnadir_Click(object sender, RoutedEventArgs e)
+        {
+            Cliente clientes = new Cliente(txtNombre.Text, txtApellido.Text, cbProvincia.Text);
+            listaClientes.Add(clientes);
+        }
+
+        private void btnMostrarInfo_Click(object sender, RoutedEventArgs e)
+        {
+            lstListaClientes.ItemsSource = listaClientes;
+
         }
     }
 }

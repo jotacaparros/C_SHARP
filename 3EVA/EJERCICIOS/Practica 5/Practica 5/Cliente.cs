@@ -5,8 +5,11 @@ public class Cliente
 	string nombre;
 	string apellido;
 	string provincia;
-	public Cliente()
-	{	
+	public Cliente(string nom, string ape, string pro)
+	{
+		nombre = nom;
+		apellido = ape;
+		provincia = pro;
 
 	}
 	 public string GetNombre()
