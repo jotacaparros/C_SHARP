@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "p0gL7TOkZqtsR8soksr/1xYtJVLvySgSAzwdzVyXGc3ssw2wu9lbAPAZHzuofgi2+eA9Tr70GifFHgZfkU5Few==",
+  "dgSpecHash": "uuyU8V44YU4ASAxZSCjMocxM0NVYjnRhF4crCG9M8yJUWhYO21gEevo6pE1YrHNq6czqMorbcUIB3ibdblfZvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica 5\\Practica 5\\Practica 5.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica 5\\Practica 5\\Practica 5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\José\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
+    "C:\\Users\\José\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\José\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\José\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

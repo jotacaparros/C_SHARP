@@ -20,3 +20,25 @@ C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Pract
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.pdb
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.genruntimeconfig.cache
 C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\ref\Practica 5.dll
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\bin\Debug\net5.0-windows\Practica 5.exe
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\bin\Debug\net5.0-windows\Practica 5.deps.json
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\bin\Debug\net5.0-windows\Practica 5.runtimeconfig.json
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\bin\Debug\net5.0-windows\Practica 5.runtimeconfig.dev.json
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\bin\Debug\net5.0-windows\Practica 5.dll
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\bin\Debug\net5.0-windows\ref\Practica 5.dll
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\bin\Debug\net5.0-windows\Practica 5.pdb
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.csproj.AssemblyReference.cache
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5_MarkupCompile.cache
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5_MarkupCompile.lref
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.g.resources
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.AssemblyInfoInputs.cache
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.AssemblyInfo.cs
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.csproj.CoreCompileInputs.cache
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.dll
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\ref\Practica 5.dll
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.pdb
+C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica 5\Practica 5\obj\Debug\net5.0-windows\Practica 5.genruntimeconfig.cache

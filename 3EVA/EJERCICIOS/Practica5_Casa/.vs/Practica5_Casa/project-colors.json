@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "772fe7ad-4ed1-47b8-a676-a50bc81b144c": {
+      "ProjectGuid": "772fe7ad-4ed1-47b8-a676-a50bc81b144c",
+      "DisplayName": "Practica5_Casa",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
