@@ -12,7 +12,7 @@ public class Cliente
 		provincia = pro;
 
 	}
-	 public string GetNombre()
+	public string GetNombre()
     {
 		return nombre;
     }
@@ -41,4 +41,9 @@ public class Cliente
 	{
 		provincia = pro;
 	}
+
+	public string infoLb()
+    {
+		return nombre + " " + apellido + " " + provincia;
+    }
 }

@@ -7,24 +7,28 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+
+        <!-- - - - - - - - - - - LABELS - - - - - - - - - - -->
         <Label x:Name="lbNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="116,72,0,0" VerticalAlignment="Top" Width="149"/>
         <Label x:Name="lbApellido" Content="Apellido:" HorizontalAlignment="Left" Margin="116,125,0,0" VerticalAlignment="Top" Width="149"/>
-        <Label x:Name="lbProvincia" Content="Provincia:" HorizontalAlignment="Left" Margin="42,198,0,0" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="lbProvincia" Content="Provincia:" HorizontalAlignment="Left" Margin="116,191,0,0" VerticalAlignment="Top" Width="73"/>
+
+        <!-- - - - - - - - - - - TEXTBOX - - - - - - - - - - -->
         <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="247,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="247,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <!-- - - - - - - - - - - BUTTONS - - - - - - - - - - -->
         <Button x:Name="btnAnadir" Content="Añadir" HorizontalAlignment="Left" Margin="434,280,0,0" VerticalAlignment="Top" Click="btnAnadir_Click" />
         <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="589,280,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="515,280,0,0" VerticalAlignment="Top"/>
-        <ListView x:Name="lstListaClientes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="421,39,23,209">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn/>
-                </GridView>
-            </ListView.View>
-        </ListView>
         <Button x:Name="btnCrearFichero" Content="Crear fichero" HorizontalAlignment="Left" Margin="680,280,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnMostrarInfo" Content="Mostrar datos" HorizontalAlignment="Left" Height="26" Margin="434,324,0,0" VerticalAlignment="Top" Width="93" Click="btnMostrarInfo_Click"/>
-        <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="170,337,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnMostrarInfo" Content="Mostrar datos" HorizontalAlignment="Left" Height="26" Margin="434,324,0,0" VerticalAlignment="Top" Width="93"/>
+        
+        <!-- - - - - - - - - - - COMBO BOX - - - - - - - - - - -->
+        <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="247,193,0,0" VerticalAlignment="Top" Width="120"/>
+
+        <!-- - - - - - - - - - - LIST BOX - - - - - - - - - - -->
+        <ListBox x:Name="lbxClientes" HorizontalAlignment="Left" Height="143" Margin="423,72,0,0" VerticalAlignment="Top" Width="329" d:ItemsSource="{d:SampleData ItemCount=5}"/>
 
     </Grid>
 </Window>
