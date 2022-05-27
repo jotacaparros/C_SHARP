@@ -28,7 +28,7 @@ namespace Practica_5
 
             InitializeComponent();
 
-
+          
 
             cbProvincia.Items.Add("Alicante");
             cbProvincia.Items.Add("Castellón");
@@ -57,24 +57,35 @@ namespace Practica_5
 
         }
 
-        //¿Como funciona el tema de bloquear botones?
+       
         private void lbxClientes_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
-
-            btnAnadir.IsEnabled = false;
-
             if (lbxClientes.Items != null)
             {
                 btnAnadir.IsEnabled = false;
             }
 
+            //if (txtapellido.isselectionactive == true)
+            //{
+            //    btnanadir.isenabled = true;
+            //}
 
-            lbxClientes.SelectedItem = listado;
-            listado.GetApellido();
-            listaClientes[
-           //istado.SetProvincia(cbProvincia.SelectedItem);
+
+            /* lbxClientes.SelectedItem = listado;
+             listado.GetApellido();
+             listaClientes[*/
+            //istado.SetProvincia(cbProvincia.SelectedItem);
             //stado.SetApellido(txtApellido.Text);
+        }
+
+        private void txtNombre_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            btnAnadir.IsEnabled = true;
+        }
+
+        private void txtApellido_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            btnAnadir.IsEnabled = true;
         }
     }
 }

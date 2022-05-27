@@ -14,8 +14,8 @@
         <Label x:Name="lbProvincia" Content="Provincia:" HorizontalAlignment="Left" Margin="116,191,0,0" VerticalAlignment="Top" Width="73"/>
 
         <!-- - - - - - - - - - - TEXTBOX - - - - - - - - - - -->
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="247,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="247,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="247,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" SelectionChanged="txtNombre_SelectionChanged"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="247,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" SelectionChanged="txtApellido_SelectionChanged"/>
 
         <!-- - - - - - - - - - - BUTTONS - - - - - - - - - - -->
         <Button x:Name="btnAnadir" Content="Añadir" HorizontalAlignment="Left" Margin="434,280,0,0" VerticalAlignment="Top" Click="btnAnadir_Click" />
@@ -28,7 +28,7 @@
         <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="247,193,0,0" VerticalAlignment="Top" Width="120"/>
 
         <!-- - - - - - - - - - - LIST BOX - - - - - - - - - - -->
-        <ListBox x:Name="lbxClientes" HorizontalAlignment="Left" Height="143" Margin="423,72,0,0" VerticalAlignment="Top" Width="329" d:ItemsSource="{d:SampleData ItemCount=5}" Selected="lbxClientes_Selected" SelectionChanged="lbxClientes_SelectionChanged"/>
+        <ListBox x:Name="lbxClientes" HorizontalAlignment="Left" Height="143" Margin="423,72,0,0" VerticalAlignment="Top" Width="329" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="lbxClientes_SelectionChanged"/>
 
     </Grid>
 </Window>

@@ -19,3 +19,24 @@ C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_C
 C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.pdb
 C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.genruntimeconfig.cache
 C:\Users\José\Desktop\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\ref\Practica5_Casa.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.csproj.AssemblyReference.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa_MarkupCompile.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa_MarkupCompile.lref
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\refint\Practica5_Casa.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.pdb
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\bin\Debug\net6.0-windows\Practica5_Casa.exe
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\bin\Debug\net6.0-windows\Practica5_Casa.deps.json
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\bin\Debug\net6.0-windows\Practica5_Casa.runtimeconfig.json
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\bin\Debug\net6.0-windows\Practica5_Casa.dll
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\bin\Debug\net6.0-windows\Practica5_Casa.pdb
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.g.resources
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.AssemblyInfoInputs.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.AssemblyInfo.cs
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.csproj.CoreCompileInputs.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\Practica5_Casa.genruntimeconfig.cache
+C:\Users\mañana\Desktop\DAW 1º\Github\C_SHARP\3EVA\EJERCICIOS\Practica5_Casa\Practica5_Casa\obj\Debug\net6.0-windows\ref\Practica5_Casa.dll
