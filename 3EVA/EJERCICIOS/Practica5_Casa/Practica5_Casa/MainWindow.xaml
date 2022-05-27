@@ -19,16 +19,18 @@
 
         <!-- - - - - - - - - - - BUTTONS - - - - - - - - - - -->
         <Button x:Name="btnAnadir" Content="Añadir" HorizontalAlignment="Left" Margin="434,280,0,0" VerticalAlignment="Top" Click="btnAnadir_Click" />
-        <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="589,280,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="589,280,0,0" VerticalAlignment="Top" Click="btnModificar_Click"/>
         <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="515,280,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnCrearFichero" Content="Crear fichero" HorizontalAlignment="Left" Margin="680,280,0,0" VerticalAlignment="Top"/>
         <Button x:Name="btnMostrarInfo" Content="Mostrar datos" HorizontalAlignment="Left" Height="26" Margin="434,324,0,0" VerticalAlignment="Top" Width="93"/>
-        
+        <Button x:Name="btnGuardarCambios" Content="Guardar cambios" HorizontalAlignment="Left" Height="26" Margin="588,324,0,0" VerticalAlignment="Top" Width="177" Click="btnGuardarCambios_Click"/>
+
+
         <!-- - - - - - - - - - - COMBO BOX - - - - - - - - - - -->
         <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="247,193,0,0" VerticalAlignment="Top" Width="120"/>
 
         <!-- - - - - - - - - - - LIST BOX - - - - - - - - - - -->
         <ListBox x:Name="lbxClientes" HorizontalAlignment="Left" Height="143" Margin="423,72,0,0" VerticalAlignment="Top" Width="329" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="lbxClientes_SelectionChanged"/>
-
+        
     </Grid>
 </Window>

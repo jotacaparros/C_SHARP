@@ -64,18 +64,6 @@ namespace Practica_5
             {
                 btnAnadir.IsEnabled = false;
             }
-
-            //if (txtapellido.isselectionactive == true)
-            //{
-            //    btnanadir.isenabled = true;
-            //}
-
-
-            /* lbxClientes.SelectedItem = listado;
-             listado.GetApellido();
-             listaClientes[*/
-            //istado.SetProvincia(cbProvincia.SelectedItem);
-            //stado.SetApellido(txtApellido.Text);
         }
 
         private void txtNombre_SelectionChanged(object sender, RoutedEventArgs e)
@@ -87,5 +75,27 @@ namespace Practica_5
         {
             btnAnadir.IsEnabled = true;
         }
+
+        private void btnModificar_Click(object sender, RoutedEventArgs e)
+        {
+            if(lbxClientes.SelectedItem != null)
+            {
+              //De la lista de clientes, selecciono la posición del objeto clientes y pongo la funcion dar nombre para que al igualarlo 
+              //al text box te lo rellene.
+              txtNombre.Text = listaClientes[lbxClientes.SelectedIndex].GetNombre();
+              txtApellido.Text = listaClientes[lbxClientes.SelectedIndex].GetApellido();
+              txtApellido.Text = listaClientes[lbxClientes.SelectedIndex].GetApellido();
+            }
+        }
+
+        private void btnGuardarCambios_Click(object sender, RoutedEventArgs e)
+        {
+            listaClientes[lbxClientes.SelectedIndex].SetNombre(txtNombre.Text);
+            lbxClientes.Item.SelectedIndex;
+                //(listaClientes[lbxClientes.SelectedIndex].infoLb());
+            
+            listaClientes[lbxClientes.SelectedIndex].infoLb();
+        }
     }
+
 }
