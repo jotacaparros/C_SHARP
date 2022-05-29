@@ -46,4 +46,13 @@ public class Cliente
     {
 		return nombre + " " + apellido + " " + provincia;
     }
+	public string clienteEnFicheroProvincia()
+    {
+		return nombre + " " + apellido;
+
+	}
+    public string clienteEnFichero()
+	{ 
+		return nombre + "#" + apellido + "#" + provincia;
+	}
 }

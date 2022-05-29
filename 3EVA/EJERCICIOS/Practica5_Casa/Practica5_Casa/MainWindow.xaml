@@ -5,32 +5,86 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Practica_5"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="530" Width="800">
     <Grid>
 
         <!-- - - - - - - - - - - LABELS - - - - - - - - - - -->
-        <Label x:Name="lbNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="116,72,0,0" VerticalAlignment="Top" Width="149"/>
-        <Label x:Name="lbApellido" Content="Apellido:" HorizontalAlignment="Left" Margin="116,125,0,0" VerticalAlignment="Top" Width="149"/>
-        <Label x:Name="lbProvincia" Content="Provincia:" HorizontalAlignment="Left" Margin="116,191,0,0" VerticalAlignment="Top" Width="73"/>
+        <Label x:Name="lbNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="15,34,0,0" VerticalAlignment="Top" Width="149"/>
+        <Label x:Name="lbApellido" Content="Apellido:" HorizontalAlignment="Left" Margin="15,75,0,0" VerticalAlignment="Top" Width="149"/>
+        <Label x:Name="lbProvincia" Content="Provincia:" HorizontalAlignment="Left" Margin="15,119,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lbAlicante" Content="Alicante" HorizontalAlignment="Left" Margin="68,186,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lbValencia" Content="Valencia" HorizontalAlignment="Left" Margin="328,186,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lbCastellon" Content="Castellón" HorizontalAlignment="Left" Margin="598,186,0,0" VerticalAlignment="Top" Width="150"/>
+        <!-- # # # # # ALICANTE # # # # # -->
+        <Label x:Name="lbNombreA" Content="Nombre:" HorizontalAlignment="Left" Margin="26,337,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="lbApellidoA" Content="Apellido:" HorizontalAlignment="Left" Margin="26,360,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="lbProvinciaA" Content="Provincia:" HorizontalAlignment="Left" Margin="26,383,0,0" VerticalAlignment="Top" Width="73"/>
+        <!-- # # # # # VALENCIA # # # # # -->
+        <Label x:Name="lbNombreV" Content="Nombre:" HorizontalAlignment="Left" Margin="281,337,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="lbApellidoV" Content="Apellido:" HorizontalAlignment="Left" Margin="281,360,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="lbProvinciaV" Content="Provincia:" HorizontalAlignment="Left" Margin="281,383,0,0" VerticalAlignment="Top" Width="73"/>
+        <!-- # # # # # CASTELLON # # # # # -->
+        <Label x:Name="lbNombreC" Content="Nombre:" HorizontalAlignment="Left" Margin="534,337,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="lbApellidoC" Content="Apellido:" HorizontalAlignment="Left" Margin="534,360,0,0" VerticalAlignment="Top" Width="58"/>
+        <Label x:Name="lbProvinciaC" Content="Provincia:" HorizontalAlignment="Left" Margin="534,383,0,0" VerticalAlignment="Top" Width="73"/>
+        <!-- - - - - - - - - - - LABELS - - - - - - - - - - -->
 
         <!-- - - - - - - - - - - TEXTBOX - - - - - - - - - - -->
-        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="247,76,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" SelectionChanged="txtNombre_SelectionChanged"/>
-        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="247,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" SelectionChanged="txtApellido_SelectionChanged"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="146,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" SelectionChanged="txtNombre_SelectionChanged"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="146,80,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" SelectionChanged="txtApellido_SelectionChanged"/>
+        <!-- # # # # # ALICANTE # # # # # -->
+        <TextBox x:Name="txtNombreA" HorizontalAlignment="Left" Margin="99,337,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156" SelectionChanged="txtNombreA_SelectionChanged"/>
+        <TextBox x:Name="txtApellidoA" HorizontalAlignment="Left" Margin="99,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156" SelectionChanged="txtApellidoA_SelectionChanged"/>
+        <!-- # # # # # VALENCIA # # # # # -->
+        <TextBox x:Name="txtNombreV" HorizontalAlignment="Left" Margin="354,337,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156" SelectionChanged="txtNombreV_SelectionChanged"/>
+        <TextBox x:Name="txtApellidoV" HorizontalAlignment="Left" Margin="354,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156" SelectionChanged="txtApellidoV_SelectionChanged"/>
+        <!-- # # # # # CASTELLON # # # # # -->
+        <TextBox x:Name="txtNombreC" HorizontalAlignment="Left" Margin="607,337,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156" SelectionChanged="txtNombreC_SelectionChanged"/>
+        <TextBox x:Name="txtApellidoC" HorizontalAlignment="Left" Margin="607,360,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="156" TextChanged="txtApellidoC_TextChanged"/>
+        <!-- - - - - - - - - - - TEXTBOX - - - - - - - - - - -->
 
         <!-- - - - - - - - - - - BUTTONS - - - - - - - - - - -->
-        <Button x:Name="btnAnadir" Content="Añadir" HorizontalAlignment="Left" Margin="434,280,0,0" VerticalAlignment="Top" Click="btnAnadir_Click" />
-        <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="589,280,0,0" VerticalAlignment="Top" Click="btnModificar_Click"/>
-        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="515,280,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnCrearFichero" Content="Crear fichero" HorizontalAlignment="Left" Margin="680,280,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnMostrarInfo" Content="Mostrar datos" HorizontalAlignment="Left" Height="26" Margin="434,324,0,0" VerticalAlignment="Top" Width="93"/>
-        <Button x:Name="btnGuardarCambios" Content="Guardar cambios" HorizontalAlignment="Left" Height="26" Margin="588,324,0,0" VerticalAlignment="Top" Width="177" Click="btnGuardarCambios_Click"/>
-
+        <Button x:Name="btnAnadir" Content="Añadir" HorizontalAlignment="Left" Margin="660,41,0,0" VerticalAlignment="Top" Click="btnAnadir_Click" Width="108" Height="26" />
+        <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="660,93,0,0" VerticalAlignment="Top" Click="btnModificar_Click" Height="26" Width="108"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="660,67,0,0" VerticalAlignment="Top" Click="btnEliminar_Click" Height="26" Width="108"/>
+        <Button x:Name="btnCrearFichero" Content="Crear fichero" HorizontalAlignment="Left" Margin="660,145,0,0" VerticalAlignment="Top" Click="btnCrearFichero_Click" Height="26" Width="108"/>
+        <Button x:Name="btnGuardarCambios" Content="Guardar cambios" HorizontalAlignment="Left" Height="26" Margin="660,119,0,0" VerticalAlignment="Top" Width="108" Click="btnGuardarCambios_Click"/>
+        <!-- # # # # # ALICANTE # # # # # -->
+        <Button x:Name="btnAnadirA" Content="Añadir" HorizontalAlignment="Left" Margin="35,416,0,0" VerticalAlignment="Top" Width="108" Height="26" Click="btnAnadirA_Click" />
+        <Button x:Name="btnModificarA" Content="Modificar" HorizontalAlignment="Left" Margin="147,447,0,0" VerticalAlignment="Top" Height="26" Width="108" Click="btnModificarA_Click"/>
+        <Button x:Name="btnEliminarA" Content="Eliminar" HorizontalAlignment="Left" Margin="147,416,0,0" VerticalAlignment="Top" Height="26" Width="108" Click="btnEliminarA_Click"/>
+        <Button x:Name="btnGuardarCambiosA" Content="Guardar cambios" HorizontalAlignment="Left" Height="26" Margin="35,447,0,0" VerticalAlignment="Top" Width="108" Click="btnGuardarCambiosA_Click"/>
+        <!-- # # # # # VALENCIA # # # # # -->
+        <Button x:Name="btnAnadirV" Content="Añadir" HorizontalAlignment="Left" Margin="290,416,0,0" VerticalAlignment="Top" Width="108" Height="26" Click="btnAnadirV_Click" />
+        <Button x:Name="btnModificarV" Content="Modificar" HorizontalAlignment="Left" Margin="402,447,0,0" VerticalAlignment="Top" Height="26" Width="108" Click="btnModificarV_Click"/>
+        <Button x:Name="btnEliminarV" Content="Eliminar" HorizontalAlignment="Left" Margin="402,416,0,0" VerticalAlignment="Top" Height="26" Width="108" Click="btnEliminarV_Click"/>
+        <Button x:Name="btnGuardarCambiosV" Content="Guardar cambios" HorizontalAlignment="Left" Height="26" Margin="290,447,0,0" VerticalAlignment="Top" Width="108" Click="btnGuardarCambiosV_Click"/>
+        <!-- # # # # # CASTELLON # # # # # -->
+        <Button x:Name="btnAnadirC" Content="Añadir" HorizontalAlignment="Left" Margin="543,416,0,0" VerticalAlignment="Top" Width="108" Height="26" Click="btnAnadirC_Click" />
+        <Button x:Name="btnModificarC" Content="Modificar" HorizontalAlignment="Left" Margin="655,447,0,0" VerticalAlignment="Top" Height="26" Width="108" Click="btnModificarC_Click"/>
+        <Button x:Name="btnEliminarC" Content="Eliminar" HorizontalAlignment="Left" Margin="655,416,0,0" VerticalAlignment="Top" Height="26" Width="108" Click="btnEliminarC_Click"/>
+        <Button x:Name="btnGuardarCambiosC" Content="Guardar cambios" HorizontalAlignment="Left" Height="26" Margin="543,447,0,0" VerticalAlignment="Top" Width="108" Click="btnGuardarCambiosC_Click"/>
+        <!-- - - - - - - - - - - BUTTONS - - - - - - - - - - -->
 
         <!-- - - - - - - - - - - COMBO BOX - - - - - - - - - - -->
-        <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="247,193,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbProvincia" HorizontalAlignment="Left" Margin="146,121,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbProvinciaA" HorizontalAlignment="Left" Margin="99,383,0,0" VerticalAlignment="Top" Width="156"/>
+        <ComboBox x:Name="cbProvinciaV" HorizontalAlignment="Left" Margin="354,383,0,0" VerticalAlignment="Top" Width="156"/>
+        <ComboBox x:Name="cbProvinciaC" HorizontalAlignment="Left" Margin="607,383,0,0" VerticalAlignment="Top" Width="156"/>
+
 
         <!-- - - - - - - - - - - LIST BOX - - - - - - - - - - -->
-        <ListBox x:Name="lbxClientes" HorizontalAlignment="Left" Height="143" Margin="423,72,0,0" VerticalAlignment="Top" Width="329" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="lbxClientes_SelectionChanged"/>
-        
+        <ListBox x:Name="lbxClientes" HorizontalAlignment="Left" Height="143" Margin="318,34,0,0" VerticalAlignment="Top" Width="328" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="lbxClientes_SelectionChanged"/>
+        <ListBox x:Name="lbxAlicante" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="15,217,0,0" Height="109" VerticalAlignment="Top" HorizontalAlignment="Left" Width="240" SelectionChanged="lbxAlicante_SelectionChanged"/>
+        <ListBox x:Name="lbxValencia" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="290,217,0,0" Height="109" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220" SelectionChanged="lbxValencia_SelectionChanged"/>
+        <ListBox x:Name="lbxCastellon" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="543,217,0,0" Height="109" VerticalAlignment="Top" HorizontalAlignment="Left" Width="220" SelectionChanged="lbxCastellon_SelectionChanged"/>
+
+
+
+
+
+
+
+
     </Grid>
 </Window>
