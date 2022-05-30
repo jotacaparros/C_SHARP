@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj": {}
+    "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj": {}
   },
   "projects": {
-    "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj": {
+    "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj",
+        "projectUniqueName": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj",
         "projectName": "Practica5_Casa",
-        "projectPath": "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj",
-        "packagesPath": "C:\\Users\\José\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José\\Desktop\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\obj\\",
+        "projectPath": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\Practica5_Casa.csproj",
+        "packagesPath": "C:\\Users\\mañana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mañana\\Desktop\\DAW 1º\\Github\\C_SHARP\\3EVA\\EJERCICIOS\\Practica5_Casa\\Practica5_Casa\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\José\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\mañana\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
