@@ -660,16 +660,6 @@ namespace Practica_5
 
           
         }
-        //Para esta vaina el evento es previwe text input
-        //private void txtNombre_PreviewTextInput(object sender, TextCompositionEventArgs e)
-        //{
-        //    char caracter = Convert.ToChar(e.Text);
-
-        //    if (caracter >= '0' && caracter <= '9')
-        //        e.Handled = false;
-        //    else
-        //        e.Handled = true;
-        //}
 
         // - - - - - - - - - - - - - - - FUNCIONES EXTRAS - - - - - - - - - - - - - //   
     }

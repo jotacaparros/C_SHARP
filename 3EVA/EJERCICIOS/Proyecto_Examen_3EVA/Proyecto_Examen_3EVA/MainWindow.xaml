@@ -1,0 +1,38 @@
+﻿<Window x:Class="JoseM_Caparros_Examen3EVA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JoseM_Caparros_Examen3EVA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="800">
+    <Grid>
+        <Button x:Name="btnAnadir" Content="Añadir" HorizontalAlignment="Left" Height="21" Margin="618,82,0,0" VerticalAlignment="Top" Width="78" Click="btnAnadir_Click"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" HorizontalAlignment="Left" Margin="618,108,0,0" VerticalAlignment="Top" Width="78" Click="btnEliminar_Click"/>
+        <Button x:Name="btnModificar" Content="Modificar" HorizontalAlignment="Left" Margin="618,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.537,0.638" Width="77" Click="btnModificar_Click"/>
+        <Button x:Name="btnGuardarCambios" Content="Guardar" HorizontalAlignment="Left" Margin="618,158,0,0" VerticalAlignment="Top" Width="78" Click="btnGuardarCambios_Click"/>
+        <Button x:Name="btnExportarPdf" Content="Exportar Pdf" HorizontalAlignment="Left" Height="19" Margin="618,183,0,0" VerticalAlignment="Top" Width="78" Click="btnExportarPdf_Click"/>
+        <Button x:Name="btnGenerarJSON" Content="Generar JSON" HorizontalAlignment="Left" Margin="618,0,0,0" VerticalAlignment="Center" Click="btnGenerarJSON_Click"/>
+        <Button x:Name="btnMostrar" Content="Mostrar lista" HorizontalAlignment="Left" Height="21" Margin="618,56,0,0" VerticalAlignment="Top" Width="78" Click="btnMostrar_Click"/>
+
+        <ComboBox x:Name="cbArchivosListas" HorizontalAlignment="Left" Height="21" Margin="493,56,0,0" VerticalAlignment="Top" Width="101"/>
+
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="474,85,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtTelefono" HorizontalAlignment="Left" Margin="474,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtApellido" HorizontalAlignment="Left" Margin="474,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="474,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtDireccion" HorizontalAlignment="Left" Margin="474,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtCodigoProvisional" HorizontalAlignment="Left" Margin="474,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+        <Label x:Name="lbNombre" Content="Nombre:" HorizontalAlignment="Left" Margin="373,82,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lbTelefono" Content="Teléfono:" HorizontalAlignment="Left" Margin="373,108,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lbApellido" Content="Apellido:" HorizontalAlignment="Left" Margin="373,133,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lbEmail" Content="Email:" HorizontalAlignment="Left" Margin="373,158,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lbDireccion" Content="Dirección:" HorizontalAlignment="Left" Margin="373,183,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="lbCodigo" Content="Código:" HorizontalAlignment="Left" Margin="373,214,0,0" VerticalAlignment="Top" Width="74"/>
+
+        <ListBox x:Name="listBoxListaEnPantalla" HorizontalAlignment="Left" Height="282" Margin="48,40,0,0" VerticalAlignment="Top" Width="308" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
+
+    </Grid>
+</Window>

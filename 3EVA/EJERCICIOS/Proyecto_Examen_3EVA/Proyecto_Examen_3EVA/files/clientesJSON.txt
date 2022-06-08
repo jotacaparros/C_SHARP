@@ -1,0 +1,4 @@
+{"Codigo" : "0904", "Nombre" : "Carlos", "Apellidos" : "Martínez", "Teléfono" : "987456321", "Dirección" : "Calle Enriqueta Ortega, Nº 17" }
+{"Codigo" : "4526", "Nombre" : "Cristiano", "Apellidos" : "Ronaldo", "Teléfono" : "958147236", "Dirección" : "Calle El Bicho Nº 7" }
+{"Codigo" : "", "Nombre" : "fsadfasdsd", "Apellidos" : "asdfsdaf", "Teléfono" : "asadfsadf", "Dirección" : "dasfafasd" }
+{"Codigo" : "zdvff", "Nombre" : "fsadfasdsd", "Apellidos" : "asdfsdaf", "Teléfono" : "asadfsadf", "Dirección" : "dasfafasd" }
