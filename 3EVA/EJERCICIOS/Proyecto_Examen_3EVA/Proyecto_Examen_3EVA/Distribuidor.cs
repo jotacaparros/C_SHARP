@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JoseM_Caparros_Examen3EVA
 {
-    internal class Distribuidor : Persona
+    public class Distribuidor : Persona
     {
         string email;
 

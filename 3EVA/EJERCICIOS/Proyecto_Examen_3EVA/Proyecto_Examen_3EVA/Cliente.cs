@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace JoseM_Caparros_Examen3EVA
 {
-     internal class Cliente : Persona
+     public class Cliente : Persona
     {
         string apellido;
         string direccion;

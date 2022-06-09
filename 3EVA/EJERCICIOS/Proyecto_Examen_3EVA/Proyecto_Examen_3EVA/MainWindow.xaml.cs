@@ -24,10 +24,21 @@ using iTextSharp.text.pdf;
 
 namespace JoseM_Caparros_Examen3EVA
 {
-   
+
+
+    // # # # # # # # # # # # # APUNTES # # # # # # # # # # # #
+    /* 
+     METODOS DE CLASE: Los metodos de clase son funciones que tienes en una clase externa, en los que para declarar esa función no hace falta crear un objeto de esa clase.
+    Se utiliza una clase que se le pone un nombre generico como "utilidades" o "misceláneo" donde metemos todos las funciones. 
+      
+       # # # # # # # # # # # # APUNTES # # # # # # # # # # # #  */
+
+
     public partial class MainWindow : Window
     {
-       
+        public static List<Cliente> listaClientes = new List<Cliente>();
+        public static List<Distribuidor> listaDistribuidores = new List<Distribuidor>();
+
         /* SOLO FUNCIONA CON CLIENTES  */
         public MainWindow()
         {     
@@ -264,7 +275,11 @@ namespace JoseM_Caparros_Examen3EVA
             cbArchivosListas.Items.Add("Distribuidores");
         }
 
+        private void LeerFichero(string nombreFichero, ListBox lb)
+        {
+     
 
+        }
       
 
     }
